@@ -2,7 +2,7 @@
 
 /*
  *
- *main - Entry point
+ *main - main Entry point of the program, also the main function
  *
  *Return: Always 0 (Success)
  *
