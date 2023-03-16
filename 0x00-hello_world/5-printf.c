@@ -3,7 +3,7 @@
 int main(void)
 {
   /*
-   *main - main function
+   *main - Entry point
    *
    *Return value 0: Success
    */
