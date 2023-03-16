@@ -3,7 +3,7 @@
 int main(void)
 {
   /*
-   *main - main block
+   *main - main function
    *
    *Return value 0: Success
    */
