@@ -2,8 +2,7 @@
 #include <stdio.h>
 
 /*
- *
- *@main - main Entry point of the program, also the main function
+ *@main- main function that is also the entry point of the program
  *
  *Return: Always 0 (Success)
  *
