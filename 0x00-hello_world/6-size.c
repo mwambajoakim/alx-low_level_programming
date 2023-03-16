@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-int main(void)
-
 
 /**
   *main - entry point
@@ -9,7 +7,7 @@ int main(void)
   *Return value 0: Success
   *
   */
-  int main(void)
+int main(void)
 {
 printf("Size of an int is: %li byte(s)\n", sizeof(int));
 printf("Size of a char is: %li byte(s)\n", sizeof(char));
