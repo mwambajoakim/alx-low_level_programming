@@ -16,7 +16,7 @@ putchar(a);
 a++;
 }
 
-a = 'A'
+ a = 'A';
 while (a <= 'Z')
 {
 putchar(a);
