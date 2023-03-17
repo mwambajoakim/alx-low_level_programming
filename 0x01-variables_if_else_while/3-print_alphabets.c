@@ -16,13 +16,12 @@ putchar(a);
 a++;
 }
 
- a = 'A';
+a = 'A';
 while (a <= 'Z')
 {
 putchar(a);
 a++;
 }
+putchar('\n');
 return (0);
 }
-
-  
