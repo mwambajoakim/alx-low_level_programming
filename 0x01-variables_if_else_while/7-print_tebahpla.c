@@ -16,7 +16,7 @@ while (z >= 'a')
 putchar(z);
 z--;
 }
-putchar('n');
+putchar('\n');
 
 return (0);
 
