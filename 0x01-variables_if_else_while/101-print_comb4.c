@@ -9,21 +9,21 @@
 
 int main(void)
 {
-int j, k, l, m;
+int a, b, c, d;
 
-for (j = 0; j < 1000; j++)
+for (a = 0; a < 1000; a++)
 {
-k = j / 100;
-l = (j / 10) % 10;
-m = j % 10;
+b = a / 100;
+c = (a / 10) % 10;
+d = a % 10;
 
-if (k < l && l < m)
+if (b < c && c < d)
 {
-putchar(k + '0');
-putchar(l + '0');
-putchar(m + '0');
+putchar(b + '0');
+putchar(c + '0');
+putchar(d + '0');
 
-if (j < 800)
+if (a < 800)
 {
 putchar(44);
 putchar(32);
@@ -31,5 +31,6 @@ putchar(32);
 }
 }
 putchar('\n');
+
 return (0);
 }
