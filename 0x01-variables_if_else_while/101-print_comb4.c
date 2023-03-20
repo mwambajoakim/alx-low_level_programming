@@ -33,5 +33,3 @@ putchar(32);
 putchar('\n');
 return (0);
 }
-
-  
