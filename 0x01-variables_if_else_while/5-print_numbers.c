@@ -11,7 +11,7 @@ int main(void)
 int a = '0';
 
 while (a <= 10)
-a++
+a++;
 {
 printf("%d\n", a);
 }
