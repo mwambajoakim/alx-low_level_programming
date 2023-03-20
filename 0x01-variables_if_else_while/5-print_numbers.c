@@ -8,10 +8,10 @@
 
 int main(void)
 {
-int a = '0';
+int a = 0;
 
 while (a <= 10)
-a++;
+a = a + 1;
 {
 printf("%d\n", a);
 }
