@@ -11,11 +11,14 @@ int main(void)
 {
 char a;
 a = 'a';
-do
+
+while (a <= 'z')
 {
-putchar("%s\n", a);
+if (a != 'q' && a != 'e')
+putchar(a);
+a++;
 }
-while ((a < e) && (a > e) && (a < q) && (a > q));
 putchar("\n");
+
 return (0);
 }
