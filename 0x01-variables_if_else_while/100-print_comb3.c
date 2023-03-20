@@ -10,7 +10,7 @@
 int main(void)
 {
 int f, l;
-for (f = 30; f<= 39; f++)
+for (f = 30; f <= 39; f++)
 {
 for (l = 30; l <= 39; l++)
 {
