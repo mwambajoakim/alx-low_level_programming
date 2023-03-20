@@ -10,6 +10,7 @@
 int main(void)
 {
 char a;
+a = 'a';
 do
 {
 putchar("%s\n", a);
