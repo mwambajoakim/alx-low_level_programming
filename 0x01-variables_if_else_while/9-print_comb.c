@@ -9,9 +9,18 @@
 
 int main(void)
 {
-  char d=1;
+char d;
 
-  for(d='1'; d<='9'; d++)
-    putchar(d);
-  return (0);
+for(d = 1; d < 10; d++)
+{
+putchar(d + '0');
+if (a < 9)
+{
+putchar(',');
+putchar(' ');
+}
+}
+putchar('\n');
+ 
+return (0);
 }
