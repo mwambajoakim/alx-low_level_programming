@@ -7,7 +7,6 @@
  */
 
 int main(void)
-int main(void)
 {
 int count;
 unsigned long j = 0, k = 1, sum;
