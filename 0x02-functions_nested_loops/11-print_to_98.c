@@ -7,8 +7,8 @@
 
 void print_to_98(int n)
 {
-for (n = 0; n < 99;n++)
-{
-printf("%d, \n", n);
-}
+if (n < 99)
+while (n <= 98)
+
+printf("%d, \n", n++);
 }
