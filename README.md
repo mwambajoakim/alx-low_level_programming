@@ -1,1 +1,1 @@
-Hello World in C
+Debugging in C
