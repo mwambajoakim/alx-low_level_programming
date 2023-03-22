@@ -7,24 +7,24 @@
  */
 
 int main(void)
+int main(void)
 {
-int inc;
+int count;
+unsigned long j = 0, k = 1, sum;
 
-unsigned long int a = 0, b = 1, c;
-
-for (inc = 0; inc <= 50; inc++)
+for (count = 0; count < 50; count++)
 {
-c = a + b;
-printf("%lu", c);
+sum = j + k;
+printf("%lu", sum);
 
-a = b;
-b = c;
+j = k;
+k = sum;
 
-if (inc < 50)
-printf(", ");
-else
+if (count == 49)
 printf("\n");
+else
+printf(", ");
 }
-return (0);
 
+return (0);
 }
