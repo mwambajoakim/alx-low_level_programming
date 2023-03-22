@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - entry point
+ *print_alphabet - function to print abc
  *
  *Return: Always 0
  *
@@ -9,20 +9,14 @@
 
 void print_alphabet(void);
 
-int main(void)
 {
-char a = 'a';
+char a;
 
 while (a <= 'z')
 {
 _putchar(a);
+a++;
 _putchar('\n');
 }
 return (0);
-  
-print_alphabet(char a)
-{
-char results;
-results = a;
-return results;
 }
