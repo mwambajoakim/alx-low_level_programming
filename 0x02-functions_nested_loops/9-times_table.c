@@ -13,10 +13,13 @@ for (n = 0; n <= 9; n++)
 {
 for (m = 0; m <= 9; m++)
 {
+if (m != 0);
+{
 _putchar(',');
 _putchar(' ');
 prod = m * n;
-if (prod < 9)
+}
+if (prod <= 9)
 {
 _putchar(prod + '0');
 }
