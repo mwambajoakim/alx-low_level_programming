@@ -1,49 +1,44 @@
 #include "main.h"
 
 /**
- * print_times_table - function that prints the n times table, starting with 0
- *
- * @n: parameter
- * m: is an integer
- * k: is the second integer
- * mult: is the multiplication of the two integers
+ * print_times_table - Prints the times table of the input,
+ *                     starting with 0.
+ * @n: The value of the times table to be printed.
  */
 
 void print_times_table(int n)
 {
-int m, k, mult;
+int num, mult, prod;
 
-if (n <= 15 && n >= 0)
+if (n >= 0 && n <= 15)
 {
-
-for (m = 0; m <= n; m++)
+for (num = 0; num <= n; num++)
 {
 _putchar('0');
-for (k = 1; k <= n; k++)
+
+for (mult = 1; mult <= n; mult++)
 {
 _putchar(',');
 _putchar(' ');
-mult = m * k;
-if (mult <= 99)
+
+prod = num * mult;
+if (prod <= 99)
 _putchar(' ');
-if (mult <= 9)
+if (prod <= 9)
+_putchar(' ');
+
+if (prod >= 100)
 {
-_putchar(mult + '0');
+_putchar((prod / 100) + '0');
+_putchar(((prod / 10)) % 10 + '0');
 }
-else if (mult <= 99 && mult > 10)
+else if (prod <= 99 && prod >= 10)
 {
-_putchar(mult + '0');
-_putchar((mult % 10) + '0');
+_putchar((prod / 10) + '0');
 }
-else if (mult >= 100)
-{
-_putchar(mult + '0');
-_putchar((mult / 10) % 10 + '0');
-_putchar((mult % 10) + '0');
-}
+_putchar((prod % 10) + '0');
 }
 _putchar('\n');
 }
-
 }
 }
