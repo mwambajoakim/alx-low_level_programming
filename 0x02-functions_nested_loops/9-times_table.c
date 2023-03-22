@@ -13,7 +13,7 @@ for (n = 0; n <= 9; n++)
 {
 for (m = 0; m <= 9; m++)
 {
-if (m != 0);
+if (m != 0)
 {
 _putchar(',');
 _putchar(' ');
