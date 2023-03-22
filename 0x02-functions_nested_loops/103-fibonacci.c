@@ -8,23 +8,22 @@
 
 int main(void)
 {
-int inc;
+unsigned long a = 0, b = 1, sum;
+float tot_sum;
 
-unsigned long int a = 0, b = 1, c;
-
-for (inc = 0; inc <= 50; inc++)
+while (1)
 {
-c = a + b;
-printf("%lu", c);
+sum = a + b;
+if (sum > 4000000)
+break;
+
+if ((sum % 2) == 0)
+tot_sum += sum;
 
 a = b;
-b = c;
-
-if (inc < 50)
-printf(", ");
-else
-printf("\n");
+b = fibsum;
 }
-return (0);
+printf("%.0f\n", tot_sum);
 
+return (0);
 }
