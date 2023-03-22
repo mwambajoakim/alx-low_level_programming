@@ -21,7 +21,7 @@ if ((sum % 2) == 0)
 tot_sum += sum;
 
 a = b;
-b = fibsum;
+b = sum;
 }
 printf("%.0f\n", tot_sum);
 
