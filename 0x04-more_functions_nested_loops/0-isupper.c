@@ -2,8 +2,7 @@
 
 /**
  *_isupper - funtion that checks for uppercase characters
- *@c: the character
- *@b: the character tested
+ *@c: the character tested
  *Return: 1 if uppercase
  *Return: 0 if not
  *
