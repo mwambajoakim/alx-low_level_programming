@@ -2,7 +2,7 @@
 
 /**
  *print_diagonal - funtion will print a diagonal line
- *
+ *@n: character to be tested
  *Return: nothing
  *
  */
@@ -20,7 +20,7 @@ for (c = 0; c < b; c++)
 _putchar(' ');
 _putchar('\\');
 
-if (b == n -1)
+if (b == n - 1)
 continue;
 _putchar('\n');
 }
