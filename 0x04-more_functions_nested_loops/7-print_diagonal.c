@@ -1,30 +1,27 @@
 #include "main.h"
 
 /**
- *print_diagonal - funtion will print a diagonal line
- *@n: character to be tested
- *Return: nothing
+ * print_diagonal - printing lines diagonal
+ * @n: input variable
  *
+ * Return: void
  */
+
 
 void print_diagonal(int n)
 {
-int b, c;
+int i, j;
 
-if (n > 0)
+if (n <= 0)
+_putchar('\n');
+for (i = 0; i < n; i++)
 {
-for (b = 0; b < n; b++)
-{
-for (c = 0; c < b; c++)
+for (j = 0; j < i; j++)
 {
 _putchar(' ');
+}
 _putchar('\\');
+_putchar('\n');
+}
 
-if (b == n - 1)
-continue;
-_putchar('\n');
-}
-}
-_putchar('\n');
-}
 }
