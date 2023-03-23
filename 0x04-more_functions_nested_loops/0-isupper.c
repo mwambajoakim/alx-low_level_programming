@@ -3,8 +3,7 @@
 /**
  *_isupper - funtion that checks for uppercase characters
  *@c: the character tested
- *Return: 1 if uppercase
- *Return: 0 if not
+ *Return: 1 if uppercase and 0 if otherwise
  *
  */
 
