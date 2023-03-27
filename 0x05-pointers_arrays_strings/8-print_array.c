@@ -18,9 +18,10 @@ int d;
 for (d = 0; d < n; d++)
 {
 if (d != n - 1)
-printf("%d\n", a[d]);
+printf("%d, ", a[d]);
 else
-printf("%d\n", a[d]);
+printf("%d,", a[d]);
 }
+printf("\n");
 return;
 }
