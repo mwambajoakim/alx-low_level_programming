@@ -14,10 +14,13 @@
 
 void print_array(int *a, int n)
 {
-int len = strlen(a);
-for (n = 0; n <= len; n++)
+int d;
+for (d = 0; d < n; d++)
 {
-printf("%d\n", a[n]);
+if (d != n - 1)
+printf("%d\n", a[d]);
+else
+printf("%d\n", a[d]);
 }
 return;
 }
