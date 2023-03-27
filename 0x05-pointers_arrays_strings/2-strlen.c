@@ -11,12 +11,9 @@
 
 int _strlen(char *s)
 {
-char len;
-int i;
-for (i = 0; i != '/0'; i++)
+int j;
+for (j = 0; s[j] != '\0'; j++)
 {
-len = i;
 }
-puts(len);
-return(0);
+ return(j);
 }
