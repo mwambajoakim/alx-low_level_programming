@@ -16,5 +16,6 @@ for (i = 0; i != '/0'; i++)
 {
 len = i;
 }
-return(len);
+puts(len);
+return(0);
 }
