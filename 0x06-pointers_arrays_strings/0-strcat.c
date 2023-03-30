@@ -12,7 +12,8 @@
 char _strcat(char *dest, char *src)
 {
 char conc;
-for (dest = 'a'; dest , '\0'; dest++)
-conc = dest + src;
+int k;
+for (k = 0; k < '\0'; k++)
+conc = dest[k] + src[k];
 return (conc);
 }
