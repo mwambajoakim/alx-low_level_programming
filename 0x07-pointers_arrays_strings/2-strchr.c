@@ -11,10 +11,14 @@
 
 char *_strchr(char *s, char c)
 {
-if (c = s[c])
-putchar(c);
-else
-putchar('\0');
-
-return (c);
+int g;
+for (g = 0; *(s + g); g++
+{
+if (c == *(s + g))
+       
+return (s + g);
+ 
+}
+if (s[g] == c)
+return (s +g);
 }
