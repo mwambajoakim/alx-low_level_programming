@@ -1,21 +1,23 @@
 #include "main.h"
 
 /**
- *_memset - a function that fills memory with a constant byte
- *
- *@s: buffer
- *@b: contains constant byte
- *@n: number of bytes to use
- *
- *Return: pointer to s
+ * _memset - function that will fill a memory with a constant byte
+ * 
+ * @s: buffer where memory will be copied
+ * @b: where bytes will be obtained
+ * @n: number of bytes to be copied
+ * 
+ * Return: s
  */
-char *_memset(char *s, char b, unsigned int n);
+
+char *_memset(char *s, char b, unsigned int n)
 {
-unsigned int f = 0;
-while (f < n)
+unsigned int k;
+
+for ( k = 0; k < n; k++)
 {
-s[f] = b;
-f++;
+	s[k] = b[k]
 }
 return (s);
+
 }
