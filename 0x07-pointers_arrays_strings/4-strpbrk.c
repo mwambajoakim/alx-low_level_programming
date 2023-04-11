@@ -18,7 +18,7 @@ int g;
 
 				return (s);
 		}
-		s++
+		s++;
 
 return (NULL);
 }
