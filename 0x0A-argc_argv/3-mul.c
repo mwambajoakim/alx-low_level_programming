@@ -20,7 +20,7 @@ if (argc > 1)
 		printf("Error\n");
 		return (1);
 	}
+	printf("%d\n", product);
 }
-printf("%d\n", product);
 return (0);
 }
