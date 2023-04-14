@@ -9,10 +9,7 @@
 
 int main(int argc, char *argv)
 {
-int k;
-for (k = 0; k < argc; k++)
-{
-	printf("%d", k);
-}
-printf("\n");
+printf("%d\n", argc - 1);
+
+return (0);
 }
