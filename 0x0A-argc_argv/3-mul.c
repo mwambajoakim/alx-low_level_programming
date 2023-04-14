@@ -22,6 +22,7 @@ if (argc > 1)
 	}
 	printf("%d\n", product);
 }
-}
 return (0);
 }
+
+
