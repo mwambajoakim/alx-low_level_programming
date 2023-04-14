@@ -16,7 +16,7 @@ if (argc > 1)
 for (j = 1; j < argc; j++)
 {
 product *= atoi(argv[j]);
-if (j > 2)
+if (argc != 3)
 {
 	printf("Error\n");
 	return (1);
