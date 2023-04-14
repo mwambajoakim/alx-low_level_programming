@@ -17,7 +17,7 @@ if (argc > 1)
 	product *= atoi(argv[j]);
 	if (j > 2)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 }
