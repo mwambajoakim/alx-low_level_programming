@@ -18,6 +18,10 @@ int sum_them_all(const unsigned int n, ...)
 	for (d = 0; d < n; d++)
 	{
 	result += va_arg(args, n);
+	if (n == 0)
+	{
+	return (0);
+	}
 	}
 	va_end;
 	return (result);
