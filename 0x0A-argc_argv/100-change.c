@@ -6,7 +6,7 @@
  * @argv: argument vector
  * Return: 0 or 1
  */
-int main(int argc, char *argv)
+int main(int argc, char **argv)
 {
 	unsigned long int i;
 	int cents[] = {25, 10, 5, 2, 1};
