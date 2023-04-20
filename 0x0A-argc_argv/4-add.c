@@ -31,7 +31,7 @@ bool is_digit(char *k)
 
 int main(int argc, char *argv[])
 {
-	int j, num sum = 0;
+	int j, num, sum = 0;
 
 	for (j = 1; j < argc; j++)
 	{
