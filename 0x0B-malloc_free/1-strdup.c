@@ -26,5 +26,4 @@ char *_strdup(char *str)
 	}
 	strcpy(str1, str);
 	return (str1);
-	}
-	
+}
