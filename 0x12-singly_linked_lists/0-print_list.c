@@ -4,13 +4,13 @@
 #include "lists.h"
 
 /**
- * print_list -prints all the elements of a list_t list.
+ * print_list -prints all the elements of a list.
  * @h: name of list
- * Return: number of nodes.
+ * Return: number of nodes
  */
 size_t print_list(const list_t *h)
 {
-	int count = 0;
+	int cnt = 0;
 
 	while (h)
 	{
@@ -22,8 +22,8 @@ size_t print_list(const list_t *h)
 		{
 		printf("[%d] %s\n", h->len, h->str);
 		}
-		count++;
+		cnt++;
 		h = h->next;
 	}
-	return (count);
+	return (cnt);
 }
