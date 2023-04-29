@@ -10,7 +10,7 @@
  */
 size_t list_len(const list_t *h)
 {
-	int counter = 0; /*variable to iterate in the list if elements*/
+	size_t counter = 0; /*variable to iterate in the list if elements*/
 
 	while (h)
 	{
