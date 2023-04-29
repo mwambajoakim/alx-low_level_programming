@@ -10,12 +10,12 @@
  */
 size_t list_len(const list_t *h)
 {
-	int element = 0; /*variable to iterate in the list if elements*/
+	int counter = 0; /*variable to iterate in the list if elements*/
 
 	while (h)
 	{
-		element++; /*incrementing to iterate throught the whole list*/
+		counter++; /*incrementing to iterate throught the whole list*/
 		h = h->next; / /*assigning list to the next node*/
 	}
-	return (element);
+	return (counter);
 }
