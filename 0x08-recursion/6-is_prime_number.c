@@ -27,6 +27,7 @@ int prime_check(int j, int k)
  * Return: an integer
 */
 
+int is_prime_number(int n)
 {
 	if (n == 2)
 	return (1);
