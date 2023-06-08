@@ -11,7 +11,7 @@ int prime_check(int j, int k)
 {
 	if (j < 2 || k % j == 0)
 	{
-	return (0);
+	return (1);
 	}
 	else if (j > k / 2)
 	{
