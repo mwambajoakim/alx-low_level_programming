@@ -29,7 +29,7 @@ int palindrome_check(char *s, int y, int z)
 	if (y > z / 2)
 		return (1);
 		else
-			return (pal_checker(s, y + 1, z - 1));
+			return (palindrome_check(s, y + 1, z - 1));
 	else
 		return (0);
 }
