@@ -8,11 +8,11 @@
  */
 bool is_integer(char *s)
 {
-	int i;
+	int j;
 
-	for (i = 0; s[i] != '\0'; i++)
+	for (j = 0; s[j] != '\0'; j++)
 	{
-		if (s[i] < '0' || s[i] > '9')
+		if (s[j] < '0' || s[j] > '9')
 		{
 			return (false);
 		}
@@ -27,13 +27,13 @@ bool is_integer(char *s)
  */
 int main(int argc, char **argv)
 	{
-	int i, num, sum = 0;
+	int j, num, sum = 0;
 
-	for (i = 1; i < argc; i++)
+	for (i = 1; j < argc; j++)
 	{
-		if (is_integer(argv[i]))
+		if (is_integer(argv[j]))
 		{
-			num = atoi(argv[i]);
+			num = atoi(argv[j]);
 			if (num > 0)
 			{
 				sum += num;
