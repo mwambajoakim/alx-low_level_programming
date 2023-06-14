@@ -21,5 +21,9 @@ for (count = 0; count < size; count++)
 	arr[count] = c;
 }
 
+if (size == 0)
+{
+	return (NULL);
+}
 return (arr);
 }
