@@ -25,5 +25,10 @@ if (size == 0)
 {
 	return (NULL);
 }
+
+if (arr = NULL)
+{
+	return (NULL);
+}
 return (arr);
 }
