@@ -37,6 +37,6 @@ char *_strdup(char *str)
 	* copying the contents of str
 	* to strcopy
 	*/
-	strcpy(strcopy, str)
+	strcpy(strcopy, str);
 	return (strcopy);
 }
