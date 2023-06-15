@@ -1,50 +1,44 @@
+#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "main.h"
-
 /**
-* str_concat - a function that concatenates twos trings
-* @s1: first string
-* @s2: second string
-* Return: new string
-*/
-
+ * str_concat - concatenate two strings
+ * @s1: string 1
+ * @s2: string 2
+ * Return: pointer
+ */
 char *str_concat(char *s1, char *s2)
 {
-	int g, h, length1, length2, length;
-	char *news1s2;
+	int i, j, len1, len2, len;
+	char *result;
 
-	/*Get length of first string*/
-	while (s1 != NULL)
+	len1 = len2 = 0;
+
+	if (s1 != NULL)
 	{
-	length1++;
+		i = 0;
+		while (s1[i++] != '\0')
+			len1++;
 	}
 
-	/*Get length of second string*/
-	while (s2 != NULL)
+	if (s2 != NULL)
 	{
-	length2++;
-	}
-	length = length1 + length2;
-
-	/*Allocate memory through the sum of both*/
-	news1s2 = malloc((length + 1) * sizeof(char));
-
-	if (news1s2 == NULL)
-	return (NULL);
-
-	/*Copy contents of s1 to new string*/
-	for (g = 0; g < length1; g++)
-	{
-	news1s2[g] = s1[g];
+		i = 0;
+		while (s2[i++] != '\0')
+			len2++;
 	}
 
-	/*Add contents of s2 to new string*/
-	for (h = 0; h < length2; h++, g++)
-	{
-	news1s2[g] = s2[h];
-	}
-	news1s2[length] = '\0';
+	len = len1 + len2;
+	result = (char *)malloc(sizeof(char) * (len + 1));
+	if (result == NULL)
+		return (NULL);
 
-	return (news1s2);
+	for (i = 0; i < len1; i++)
+		result[i] = s1[i];
+	for (j = 0; j < len2; j++, i++)
+		result[i] = s2[j];
+	result[len] = '\0';
+
+	return (result);
 }
