@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 	exit(98);
 	}
 
-	operate = get_opt_func(argv[2]);
+	operate = get_op_func(argv[2]);
 
 	if (!operate)
 	{
