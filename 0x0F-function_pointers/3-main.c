@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 	printf("Error");
-	exit(99);
+	exit(98);
 	}
 
 	operate = get_opt_func;
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	if (!operate)
 	{
 	printf("Error");
-	exit(98);
+	exit(99);
 	}
 
 	printf("%d\n", operate(atoi(argv[1]), atoi(argv[3])));
