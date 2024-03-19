@@ -5,7 +5,7 @@
  *main - function that receives CL Arguments
  *
  *@argc: argument count
- *@argvv: argument vector
+ *@argv: argument vector
  *
  *Return: 0 is success
  */
@@ -14,5 +14,5 @@ int main(int argc, char *argv[])
 {
 	printf("%d\n", argc);
 
-	return(0);
+	return (0);
 }
