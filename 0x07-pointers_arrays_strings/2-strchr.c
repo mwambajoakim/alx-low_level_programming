@@ -4,11 +4,11 @@
  *_strchr - function that locates a character in a string
  *@s: string to be checked
  *@c: character to be checked
- *Return: pointer to occerence of character
+ *Return: pointer to occurrence of character
  */
 
 char *_strchr(char *s, char c)
-	{
+{
 	while (*s)		/*while we are inside string s, we start checking below*/
 	{
 		if (*s != c)		/*if c is not found in s as a first occurrence,*/
@@ -21,4 +21,4 @@ char *_strchr(char *s, char c)
 		return (s);
 
 	return (NULL);
-	}
+}
