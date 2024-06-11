@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int product = 1;
 	int count = 1;
 
-	if (argc == 1)
+	if (argc == 1 && argc == 2)
 	{
 		printf("Error\n");
 	}
