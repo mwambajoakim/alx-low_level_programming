@@ -17,13 +17,13 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 	{
-		printf("ERROR\n");
+		printf("Error\n");
 	}
 
 	else
 	{
 		for (count = 1; count < argc; count++)
-			product *= argv[count]);
+			product *= argv([count]);
 	printf("%d\n", product);
 	}
 
