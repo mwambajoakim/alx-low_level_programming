@@ -37,16 +37,16 @@ char *_strdup(char *str)
 
 	dup = (char *)malloc(size * sizeof(char));
 
-	if (str == NULL)
-	{
-		return (NULL);
-	}
-
 	if (dup == NULL)
 	{
 		return (NULL);
 	}
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+	
 	for (i = 0; str[i] != '\0'; i++)
 	{
 		dup[i] = str[i];
