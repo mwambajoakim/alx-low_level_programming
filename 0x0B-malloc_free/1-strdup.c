@@ -37,6 +37,11 @@ char *_strdup(char *str)
 
 	dup = (char *)malloc(size * sizeof(char));
 
+	if (str == NULL)
+	{
+		return (NULL);
+	}
+
 	if (dup == NULL)
 	{
 		return (NULL);
