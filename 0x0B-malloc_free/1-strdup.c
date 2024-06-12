@@ -46,10 +46,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
-	for (i = 0; str[i] != '\0'; i++)
+	else
 	{
-		dup[i] = str[i];
+		for (i = 0; str[i] != '\0'; i++)
+		{
+			dup[i] = str[i];
+		}
 	}
 	return (dup);
 }
