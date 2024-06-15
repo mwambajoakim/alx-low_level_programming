@@ -23,7 +23,6 @@ char *_strcat(char *s1, char *s2)
 	{
 		s1[i] = s2[j];
 	}
-	
 	return (s1);
 }
 
