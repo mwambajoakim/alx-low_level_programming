@@ -5,46 +5,47 @@
 /**
  *_strcat - function that concatenates strings
  *
- *@s1: pointer to string
- *@s2: pointer  to string 2
+ *@dest: pointer to string
+ *@src: pointer  to string 2
  *
  *Return: pointer to string
  */
 
-char *_strcat(char *s1, char *s2)
+char *_strcat(char *dest, char *src)
 {
 	int i, j;
 
-	for (i = 0; s1[i] != '\0'; i++)
+
+	for (i = 0; dest[i] != '\0'; i++)
+		;
+	for (j = 0; src[j] != '\0'; j++)
 	{
-		s1++;
+		dest[i] = src[j];
+		i++;
 	}
-	for (j = 0; s2[j] != '\0'; j++)
-	{
-		s1[i] = s2[j];
-	}
-	return (s1);
+	dest = '\0';
+	return (dest);
 }
 
 /**
  *_strcpy - function that copies a string
  *
- *@s1: pointer to string 1
- *@s2: pointer to string 2
+ *@src: pointer to string 1
+ *@dest: pointer to string 2
  *
  *Return: pointer to string
  */
 
-char *_strcpy(char *s1, char *s2)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for (i = 0; s1[i] != '\0'; i++)
+	for (i = 0; src[i] != '\0'; i++)
 	{
-		s1[i] = s2[i];
+		dest[i] = src[i];
 	}
 
-	return (s1);
+	return (dest);
 }
 
 /**
@@ -87,15 +88,6 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	}
 
-	if (s1 == NULL)
-	{
-		s1 = "";
-	}
-
-	if (s2 == NULL)
-	{
-		s2 = "";
-	}
 	_strcpy(conc, s1);
 	_strcat(conc, s2);
 
