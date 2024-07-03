@@ -1,5 +1,5 @@
-#ifndef 3_function_like_macro_h
-#define 3_function_like_macro_h
+#ifndef 3_FUNCTION_LIKE_MACRO_H
+#define 3_FUNCTION_LIKE_MACRO_H
 
 #ifndef ABS
 #define ABS(x)
@@ -9,4 +9,4 @@
 #endif
 
 #endif /* ABS */
-#endif /* 3_function_like_macro_h */
+#endif /* 3_FUNCTION_LIKE_MACRO_H */
