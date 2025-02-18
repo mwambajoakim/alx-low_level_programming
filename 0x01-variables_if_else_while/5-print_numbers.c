@@ -6,7 +6,7 @@
  * Return: 0 is success
  */
 
- int main(void)
+int main(void)
 {
 	/*Declare variable to  hold first digit*/
 	int number = 0;
