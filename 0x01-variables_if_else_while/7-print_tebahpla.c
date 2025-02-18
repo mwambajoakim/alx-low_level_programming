@@ -8,5 +8,9 @@
 
 int main(void)
 {
+	/*Declare variable to hold last alphabet*/
 
+	/*Loop through backwards*/
+	/*Go down one character*/
+return (0);
 }
