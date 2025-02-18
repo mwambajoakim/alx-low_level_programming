@@ -12,3 +12,6 @@ C being a low level programming language is y start on this journey of coding an
 
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
+
+## 0x01-variables_if_else_while
+This project covers the conditionals in the C programming language. These include; `if`, `else if` and `else`. At the same time I also explore using the `while` loop in C.
