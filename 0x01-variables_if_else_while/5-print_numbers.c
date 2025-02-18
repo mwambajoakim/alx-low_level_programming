@@ -15,10 +15,10 @@ int main(void)
 	while (number <= 9)
 	{
 		/*Output each number*/
-		putchar(number + '0');
+		printf("%d", number);
 		/*Go up one number*/
 		number++;
 	}
-	putchar('\n');
+	printf("\n");
 return (0);
 }
