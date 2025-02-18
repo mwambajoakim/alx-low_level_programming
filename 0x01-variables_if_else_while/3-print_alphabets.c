@@ -13,7 +13,7 @@ int main(void)
 	char u_alphabet = 'A';
 
 	/*Loop through lowercase alphabet*/
-	while (l_alphabet < 'z')
+	while (l_alphabet <= 'z')
 	{
 		/*Output each character*/
 		putchar(l_alphabet);
@@ -22,7 +22,7 @@ int main(void)
 	}
 
 	/*Loop through lowercase alphabet*/
-	while (u_alphabet < 'Z')
+	while (u_alphabet <= 'Z')
 	{
 		/*Output each character*/
 		putchar(u_alphabet);
