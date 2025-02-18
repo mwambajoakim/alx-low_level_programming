@@ -8,5 +8,7 @@ C being a low level programming language is y start on this journey of coding an
 
 ### 1. [0x00-hello_world](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x00-hello_world)
 
+### 2. [0x01-variables_if_else_while](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
