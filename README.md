@@ -10,8 +10,14 @@ C being a low level programming language is y start on this journey of coding an
 
 ### 2. [0x01-variables_if_else_while](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x01-variables_if_else_while)
 
+### 3. [0x02-functions_nested_loops](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x02-functions_nested_loops)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
 ## 0x01-variables_if_else_while
 This project covers the conditionals in the C programming language. These include; `if`, `else if` and `else`. At the same time I also explore using the `while` loop in C.
+
+
+## 0x02-functions_nested_loops
+This project explores the wild west of C ehich includes the use of functions and nested loops to make programs easy to write and debug.
