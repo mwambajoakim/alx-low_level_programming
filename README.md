@@ -18,6 +18,5 @@ This project mainly consisted of an introduction to writing C scripts inorder to
 ## 0x01-variables_if_else_while
 This project covers the conditionals in the C programming language. These include; `if`, `else if` and `else`. At the same time I also explore using the `while` loop in C.
 
-
 ## 0x02-functions_nested_loops
 This project explores the wild west of C ehich includes the use of functions and nested loops to make programs easy to write and debug.
