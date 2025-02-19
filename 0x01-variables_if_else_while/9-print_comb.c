@@ -19,9 +19,7 @@ int main(void)
 		{
 			/*Output the number, a comma and a space*/
 			putchar(number + '0');
-			putchar(',');
-			putchar(' ');
-		}
+			putchar(', ');
 
 		else
 		{
