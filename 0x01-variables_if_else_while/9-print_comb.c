@@ -15,12 +15,13 @@ int main(void)
 	while (number <= 9)
 	{
 		/*If the number is not equal to 9*/
-		if (number < 9)
+		if (number != 9)
 		{
 			/*Output the number, a comma and a space*/
 			putchar(number + '0');
-			putchar(', ');
-
+			putchar(',');
+			putchar(' ');
+		}
 		else
 		{
 			putchar(number + '0');
@@ -28,5 +29,6 @@ int main(void)
 		/*Go up one number at a time*/
 		number++;
 	}
+	putchar('\n');
 return (0);
 }
