@@ -1,16 +1,4 @@
-#include <unistd.h>
-
-/**
- * _putchar -entry point function
- *
- * @h: character to stdout
- * Return: 1 is success
- */
-
-int _putchar(char h)
-{
-return (write(1, &h, 1));
-}
+#include "main.h"
 
 /**
  * main -entry point function
