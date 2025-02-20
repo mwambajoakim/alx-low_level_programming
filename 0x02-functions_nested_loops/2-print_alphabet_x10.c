@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 	char l_alphabet;
 
 	/*Create a table to print the alphabets*/
-	for (table = 1; table <= 9; table++)
+	for (table = 0; table <= 9; table++)
 	{
 		/*Loop through the alphabet*/
 		for (l_alphabet = 'a'; l_alphabet <= 'z'; l_alphabet++)
