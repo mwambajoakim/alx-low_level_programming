@@ -10,10 +10,10 @@
 
 int _islower(int c)
 {
-	/*Declare variable*/
-
-	/*Loop through the lowercase alphabets*/
-		/*Check if lowercase and return 1*/
-		/*Return 0 if not lowercase*/
-
+	/*Check if it lowercase and return 1*/
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	/*Otherwise return 0*/
+	else
+		return (0);
 }
