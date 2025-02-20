@@ -21,6 +21,6 @@ void print_alphabet_x10(void)
 			/*Print characters to stdout*/
 			_putchar(l_alphabet);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
