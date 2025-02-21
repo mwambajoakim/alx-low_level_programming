@@ -9,6 +9,21 @@
  */
 
 int print_last_digit(int number)
-{                                                 
-return (number % 10);
+{
+	int last_digit;
+
+	if (number < 0)
+	{
+		number *= -1;
+		last_digit = number % 10;
+		_putchar(last_digit + '0');
+		return (last_digit);
+	}
+
+	else
+	{
+		last_digit = number % 10;
+		_putchar(last_digit + '0');
+		return (last_digit);
+	}
 }
