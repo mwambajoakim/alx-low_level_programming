@@ -49,3 +49,7 @@
 
 ## 09 - This function prints the 9 times table, starting with 0.
 - Prototype: `void times_table(void);`
+
+## 10 - This function adds two integers and returns the result.
+- Prototype: `int add(int, int);`
+
