@@ -19,3 +19,9 @@
 ## 02 - fThis function prints 10 times the alphabet, in lowercase, followed by a new line.
 - Prototype: `void print_alphabet_x10(void);`
 - `_putchar` was used twice in the code.
+
+## 03 - This function checks for lowercase character.
+- Prototype: `int _islower(int c);`
+- Returns `1` if `c` is lowercase.
+- Returns `0` otherwise.
+
