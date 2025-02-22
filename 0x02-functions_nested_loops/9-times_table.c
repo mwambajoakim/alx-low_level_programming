@@ -15,19 +15,21 @@ void times_table(void)
 		for (second = 0; second <= 9; second++)
 		{
 			mult = first * second;
-			if (second == 9)
+			if (second != 0)
 			{
-				_putchar((mult / 10) + '0');
-				_putchar((mult % 10) + '0');
-			}
-
-			else
-			{
-				_putchar((mult / 10) + '0');
-				_putchar((mult % 10) + '0');
 				_putchar(',');
 				_putchar(' ');
+				if (mult < 10)
+				{
+					_putchar(' ');
+				}
 			}
+
+			if (mult >= 10)
+			{
+				_putchar((mult / 10) + '0');
+			}
+			_putchar((mult % 10) + '0');
 		}
 		_putchar('\n');
 	}
