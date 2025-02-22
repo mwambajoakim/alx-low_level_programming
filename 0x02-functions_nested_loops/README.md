@@ -39,3 +39,7 @@
 ## 06- This function computes the absolute value of an integer.
 - Prototype: `int _abs(int);`
 - Returns the absolute value of the number.
+
+## 07 - This function prints the last digit of a number.
+- Prototype: `int print_last_digit(int);`
+- Returns the value of the last digit.
