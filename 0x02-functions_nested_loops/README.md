@@ -52,4 +52,5 @@
 
 ## 10 - This function adds two integers and returns the result.
 - Prototype: `int add(int, int);`
+- Returns the result of the addition.
 
