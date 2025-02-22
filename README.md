@@ -2,7 +2,7 @@
 
 ## Introduction
 
-C being a low level programming language is y start on this journey of coding and being a programmer. In this repository, I will cover a variety of topics in C from the basics until advanced. Eventually, my aim is to be able to write a whole shell using C. Hoepfully in three months. 
+C being a low level programming language is a start on this journey of coding and being a programmer. In this repository, I will cover a variety of topics in C from the basics until advanced. Eventually, my aim is to be able to write a whole shell using C. Hopefully in three months. 
 
 ## Table of Contents
 
