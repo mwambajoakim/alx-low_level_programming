@@ -54,3 +54,11 @@
 - Prototype: `int add(int, int);`
 - Returns the result of the addition.
 
+## 11 - This function prints all natural numbers from n to 98, followed by a new line.
+- Prototype: `void print_to_98(int n);`
+- Numbers must be separated by a comma, followed by a space.
+- Numbers should be printed in order.
+- The first printed number is the number passed to the function.
+- The last printed number is always `98`.
+- The standard library is used i.e for accessing `printf`.
+
