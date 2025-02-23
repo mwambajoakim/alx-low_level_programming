@@ -10,3 +10,7 @@ This is a simple project (not so simple) where I have projects that I need to fi
 ## 01 - No Infinite Loop.
 - Did not add or remove any line of code.
 - Commented out the infinite loop as required.
+
+## 02 - Print the largest of three integers.
+- Arranged the variables in the conditionals appropriately.
+- Added `greater then or equal` to signs to cover all cases.
