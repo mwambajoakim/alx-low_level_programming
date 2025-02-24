@@ -14,6 +14,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 4. [0x03-debugging](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x03-debugging)
 
+### 5. [0x04-more_functions_nested_loops](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
