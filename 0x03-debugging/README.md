@@ -13,4 +13,4 @@ This is a simple project (not so simple) where I have projects that I need to fi
 
 ## 02 - Print the largest of three integers.
 - Arranged the variables in the conditionals appropriately.
-- Added `greater than or equal` to signs to cover all cases.
+- Added `greater than or equal to` signs to cover all cases.
