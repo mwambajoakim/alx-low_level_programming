@@ -14,3 +14,6 @@ This is a simple project (not so simple) where I have projects that I need to fi
 ## 02 - Print the largest of three integers.
 - Arranged the variables in the conditionals appropriately.
 - Added `greater than or equal to` signs to cover all cases.
+
+## 03 - Print remaining days in a year.
+- Added an `else` condition for the leap year to add a day.
