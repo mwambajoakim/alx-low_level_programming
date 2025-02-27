@@ -44,3 +44,10 @@ This is just a continuation of the last project on loops and functions. Here it 
 - Where `n` is the number of times the character `\` should be printed.
 - The diagonal ends with a `\n`.
 - If `n` is `0` or less, the function only prints a `\n`.
+
+## 08 - This function prints a square, followed by a new line.
+- Prototype: `void print_square(int size);`
+- Used `_putchar` function to print.
+- Where `size` is the size of the square.
+- If `size` is `0` or less, the function should print only a new line.
+- Used the character `#` to print the square.
