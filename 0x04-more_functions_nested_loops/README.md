@@ -57,9 +57,10 @@ This is just a continuation of the last project on loops and functions. Here it 
 
 - Each number or word is separated by a space.
 
-## This function prints a triangle, followed by a new line.
+## 10 - This function prints a triangle, followed by a new line.
 - Prototype: `void print_triangle(int size);`
 - Used `_putchar` function to print.
 - Where `size` is the size of the triangle.
 - If `size` is `0` or less, the function should print only a new line.
 - Used the character `#` to print the triangle.
+
