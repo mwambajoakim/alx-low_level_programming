@@ -16,6 +16,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 5. [0x04-more_functions_nested_loops](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
 
+### [0x05-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -27,3 +29,9 @@ This project explores the wild west of C ehich includes the use of functions and
 
 ## 0x03-debugging
 This projects is about discovering errors in code manually commonly known as debugging. Of course it follows that the errors are called bugs.
+
+## 0x04-more_functions_nested_loops
+This project was just an advancement of the previous project on loops.
+
+## 0x05-pointers_arrays_strings
+An introduction to pointers, arrays and strings. I used the concepts previously worked on such as loops and conditionals.
