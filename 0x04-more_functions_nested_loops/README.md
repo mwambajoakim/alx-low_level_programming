@@ -37,3 +37,10 @@ This is just a continuation of the last project on loops and functions. Here it 
 - Where `n` is the number of times the character `_` should be printed.
 - The line should end with a `\n`.
 - If `n` is `0` or less, the function only prints `\n`.
+
+## 07 - This function draws a diagonal line on the terminal.
+- Prototype: `void print_diagonal(int n);`
+- Used `_putchar` function to print.
+- Where `n` is the number of times the character `\` should be printed.
+- The diagonal ends with a `\n`.
+- If `n` is `0` or less, the function only prints a `\n`.
