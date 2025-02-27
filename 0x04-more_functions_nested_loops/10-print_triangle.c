@@ -5,7 +5,7 @@
  * @size: Size of the triangle.
  */
 
-void print_size(int size)
+void print_triangle(int size)
 {
 	int space, start;
 
@@ -13,9 +13,15 @@ void print_size(int size)
 	{
 		for (start = 0; start < size; start++)
 		{
-			_putchar(" ");
+			if (start <= size - space)
+			{
+				_putchar(' ');
+			}
+			else
+			{
+				_putchar('#');
+			}
 		}
-		_putchar("#");
 		_putchar('\n');
 	}
 }
