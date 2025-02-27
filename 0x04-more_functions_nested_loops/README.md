@@ -17,3 +17,7 @@ This is just a continuation of the last project on loops and functions. Here it 
 ## 02 - This function multiplies two integers.
 - Prototype: `int mul(int a, int b);`
 - Returns the result of mutiplication.
+
+## 03 - This function prints the numbers, from `0` to `9`, followed by a new line.
+- Prototype: `void print_numbers(void);`
+- Used	_putchar	 twice in the code.
