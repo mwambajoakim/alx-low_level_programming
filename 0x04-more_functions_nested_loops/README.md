@@ -51,3 +51,9 @@ This is just a continuation of the last project on loops and functions. Here it 
 - Where `size` is the size of the square.
 - If `size` is `0` or less, the function should print only a new line.
 - Used the character `#` to print the square.
+
+## 09 - The FizzBuzz Test
+- The program prints the numbers from `1` to `100`, followed by a new line. But for multiples of three it prints `Fizz` instead of the number and for the multiples of five it prints `Buzz`. For numbers which are multiples of both three and five it prints `FizzBuzz`.
+
+- Each number or word is separated by a space.
+
