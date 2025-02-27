@@ -30,7 +30,6 @@ int main(void)
 		{
 			printf("%d ", numbers);
 		}
-
 		if (numbers != 100)
 		{
 			printf(" ");
