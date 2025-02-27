@@ -8,3 +8,8 @@ This is just a continuation of the last project on loops and functions. Here it 
 - Prototype: `int _isupper(int c);`
 - Returns `1` if `c` is uppercase.
 - Returns `0` otherwise.
+
+## 01 - This function checks for a digit (`0` through `9`).
+- Prototype: `int _isdigit(int c);`
+- Returns `1` if `c` is a digit.
+- Returns `0` otherwise.
