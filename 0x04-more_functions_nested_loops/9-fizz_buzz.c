@@ -26,11 +26,12 @@ int main(void)
 		}
 		else
 		{
-			if (numbers == 100)
-			{
-				printf("%d", numbers);
-			}
 			printf("%d ", numbers);
+		}
+
+		if (numbers != 100)
+		{
+			printf(" ");
 		}
 	}
 	printf("\n");
