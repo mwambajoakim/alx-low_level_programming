@@ -26,3 +26,7 @@ This is just a continuation of the last project on loops and functions. Here it 
 - Prototype: `void print_most_numbers(void);`
 - Does not print `2` and `4`.
 - Used `_putchar` twice in the code.
+
+## 05 - This function prints 10 times the numbers, from `0` to `14`, followed by a new line.
+- Prototype: `void more_numbers(void);`
+- Used `_putchar` three times in the code.
