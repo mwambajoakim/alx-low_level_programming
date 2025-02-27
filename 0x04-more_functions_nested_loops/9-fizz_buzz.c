@@ -2,8 +2,8 @@
 
 /**
  * main - Print FizzBuzz: For multiples of 3, 'Fizz' will be
- * 		printed, multiples of 5, 'Buzz' and for both multiples 
- * 		of 5 and 3, 'FizzBuzz'.
+ *		printed, multiples of 5, 'Buzz' and for both multiples
+ *		of 5 and 3, 'FizzBuzz'.
  *
  * Return: 0 is success.
  */
