@@ -13,3 +13,7 @@ This is just a continuation of the last project on loops and functions. Here it 
 - Prototype: `int _isdigit(int c);`
 - Returns `1` if `c` is a digit.
 - Returns `0` otherwise.
+
+## 02 - This function multiplies two integers.
+- Prototype: `int mul(int a, int b);`
+- Returns the result of mutiplication.
