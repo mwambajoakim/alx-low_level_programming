@@ -2,7 +2,7 @@
 
 /**
  * puts2 - Prints every other character of a string
- * staring with the first character.
+ * staring with the first character, then new line.
  *
  * @str: Pointer to string.
  */
