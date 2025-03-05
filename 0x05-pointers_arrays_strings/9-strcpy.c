@@ -33,8 +33,6 @@ int _strlen(char *s)
 char *_strcpy(char *dest, char *src)
 {
 	int i;
-	int j = _strlen(src) + 1;
-	dest[j];
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
