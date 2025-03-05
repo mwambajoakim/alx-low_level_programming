@@ -29,16 +29,13 @@ int _strlen(char *s)
 void puts_half(char *str)
 {
 	int i, half;
-	int length = _strlen(str) - 1;
+	int length = _strlen(str);
 
-	half = length - (length / 2);
+	half = (length + 1) / 2;
 
 	for (i = half; str[i] != '\0'; i++)
 	{
-		if (half / 2 != 0)
-		{
-			_putchar(str[i]);
-		}
+		_putchar(str[i]);
 	}
 	_putchar('\n');
 }
