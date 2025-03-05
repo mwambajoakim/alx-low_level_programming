@@ -20,9 +20,9 @@ int _strlen(char *s)
 }
 
 /**
- * _strcpy - Copies the string pointed to by src, 
+ * _strcpy - Copies the string pointed to by src,
  * including the terminating null byte (\0), to the
- *  buffer pointed to by dest. 
+ *  buffer pointed to by dest.
  *
  * @dest: Pointer to string.
  * @src: Pointer to string.
@@ -30,17 +30,14 @@ int _strlen(char *s)
  * Return: Pointer to a character.
  */
 
-char *strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
-	int j;
+	int j = _strlen(src) + 1;
 
-	for (i = 0; dest[i] != '\0'; i++)
+	for (i = 0; i <= j; i++)
 	{
-		for (j = 0; src[j] <= '\0'; j++)
-		{
-			dest[i] = src[i];
-		}
+		dest[i] = src[i];
 	}
 	return (dest);
 }
