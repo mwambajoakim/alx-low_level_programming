@@ -38,3 +38,10 @@ Here lies the deep waters of C. It is a journey I enjoy taking. In this project,
 - The numbers are displayed in the same order as they are stored in the array.
 - Used `printf` in this project.
 
+## 09 - This function copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+- Prototype: `char *_strcpy(char *dest, char *src);`
+- Return value: the pointer to `dest`.
+- Work just like the `strcpy` function in `string.h`.
+
+
+
