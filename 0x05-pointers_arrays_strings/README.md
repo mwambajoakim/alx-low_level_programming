@@ -25,3 +25,8 @@ Here lies the deep waters of C. It is a journey I enjoy taking. In this project,
 
 ## 06 - This function prints every other character of a string, starting with the first character, followed by a new line.
 - Prototype: `void puts2(char *str);`
+
+## 07 - This function prints half of a string, followed by a new line.
+- Prototype: `void puts_half(char *str);`
+- The function prints the second half of the string.
+- If the number of characters is odd, the function prints the last `n` characters of the string, where `n  = (length_of_the_string - 1) / 2`
