@@ -10,4 +10,11 @@ Here lies the deep waters of C. It is a journey I enjoy taking. In this project,
 - Prototype: `void swap_int(int *a, int *b);`
 
 ## 02 - This function returns the length of a string.
-- Prototype: `int _strlen(char *s);`
+- Prototype: `int _strlen(char *s);
+- This function works just like the `strlen` function in the `strings.h` library.
+
+## 03 - This function prints a string, followed by a new line, to stdout.
+- Prototype: `void _puts(char *str);`
+- Works just like the `puts` function in the standard libary.
+
+## 04 - 
