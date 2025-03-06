@@ -7,4 +7,6 @@ Here lies the deep waters of C. It is a journey I enjoy taking. In this project,
 
 - Prototype: `void reset_to_98(int *n);`
 
-## 01 -
+## 01 -  This function swaps the values of two integers.
+
+- Prototype: `void swap_int(int *a, int *b);`
