@@ -17,4 +17,5 @@ Here lies the deep waters of C. It is a journey I enjoy taking. In this project,
 - Prototype: `void _puts(char *str);`
 - Works just like the `puts` function in the standard libary.
 
-## 04 - 
+## 04 - This function prints a string, in reverse, followed by a new line.
+- Prototype: void print_rev(char *s);
