@@ -22,3 +22,6 @@ Here lies the deep waters of C. It is a journey I enjoy taking. In this project,
 
 ## 05 - This function reverses a string.
 - Prototype: `void rev_string(char *s);`
+
+## 06 - This function prints every other character of a string, starting with the first character, followed by a new line.
+- Prototype: `void puts2(char *str);`
