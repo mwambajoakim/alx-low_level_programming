@@ -18,6 +18,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### [0x05-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
 
+### [0x06-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -35,3 +37,6 @@ This project was just an advancement of the previous project on loops.
 
 ## 0x05-pointers_arrays_strings
 An introduction to pointers, arrays and strings. I used the concepts previously worked on such as loops and conditionals.
+
+## 0x06-pointers_arrays_strings
+A deeper dive into how pointers are used in C. Includes to arrays and strings and how they are used to access and manipulate data just like pointers.
