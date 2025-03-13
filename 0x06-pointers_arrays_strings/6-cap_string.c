@@ -25,7 +25,7 @@ char *cap_string(char *str)
 				break;
 			}
 		}
-		if (caps && (str[i] >= 'a' && str[i] <= 'z'))
+		if (caps && str[i] >= 'a' && str[i] <= 'z')
 		{
 			str[i] = str[i] - ('a' - 'A');
 			caps = 0;
