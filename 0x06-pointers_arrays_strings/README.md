@@ -18,3 +18,7 @@ This is a continuation of the previous project on pointers. More depth and under
 ## 02 - This function that copies a string.
 - Prototype: `char *_strncpy(char *dest, char *src, int n);`
 - This function works exactly like `strncpy`.
+
+## 03 - This function that compares two strings.
+- Prototype: `int _strcmp(char *s1, char *s2);`
+- This function work exactly like `strcmp`.
