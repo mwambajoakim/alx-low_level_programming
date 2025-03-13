@@ -14,7 +14,7 @@ char *leet(char *str)
 	char leet_letters[] = {'a', 'e', 'o', 'l', 't',
 	'A', 'E', 'O', 'L', 'T'};
 	char leet_nums[] = {'4', '3', '0', '1', '7',
-	'4', '3', '0', '7', '1'};
+	'4', '3', '0', '1', '7'};
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
