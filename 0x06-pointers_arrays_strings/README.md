@@ -14,3 +14,7 @@ This is a continuation of the previous project on pointers. More depth and under
 	- it will use at most `n` bytes from `src`; and
 	- `src` does not need to be null-terminated if it contains `n` or more bytes.
 - Return a pointer to the resulting string `dest`.
+
+## 02 - This function that copies a string.
+- Prototype: `char *_strncpy(char *dest, char *src, int n);`
+- This function works exactly like `strncpy`.
