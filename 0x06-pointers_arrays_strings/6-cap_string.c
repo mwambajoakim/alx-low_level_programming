@@ -11,19 +11,28 @@
 
 char *cap_string(char *str)
 {
-	int i;
-	char mark[] = {' ', '\t', '\n', 
+	int i, j, caps = 1;
+	char mark[] = {' ', '\t', '\n',
 		',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[i] == mark[i])
+		for (j = 0; mark[j] != '\0'; j++)
 		{
-			i++;
-			if (str[i] >= 'a' && str[i] <= 'z')
+			if (str[i] == mark[i])
 			{
-				str[i] = str[i] - ('a' - 'A');
+				caps = 1;
+				break;
 			}
+		}
+		if (caps && (str[i] >= 'a' && str[i] <= 'z'))
+		{
+			str[i] = str[i] - ('a' - 'A');
+			caps = 0;
+		}
+		else if (str[i] >= 'A' && str[i] <= 'Z')
+		{
+			caps = 0;
 		}
 	}
 	return (str);
