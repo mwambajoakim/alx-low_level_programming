@@ -30,3 +30,7 @@ This is a continuation of the previous project on pointers. More depth and under
 
 ## 05 - This function changes all lowercase letters of a string to uppercase.
 - Prototype: `char *string_toupper(char *);`
+
+## 06 - This function that capitalizes all words of a string.
+- Prototype: `char *cap_string(char *);`
+- Separators of words: space, tabulation, new line, `,`, `;`, `.`, `!`, `?`, `"`, `(`, `)`, `{`, and `}`.
