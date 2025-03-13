@@ -19,7 +19,7 @@ char *cap_string(char *str)
 	{
 		for (j = 0; mark[j] != '\0'; j++)
 		{
-			if (str[i] == mark[i])
+			if (str[i] == mark[j])
 			{
 				caps = 1;
 				break;
