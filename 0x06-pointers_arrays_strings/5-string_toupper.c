@@ -5,6 +5,8 @@
  * uppercase.
  *
  * @str: Pointer to string.
+ *
+ * Return: String in uppercase.
  */
 
 char *string_toupper(char *str)
