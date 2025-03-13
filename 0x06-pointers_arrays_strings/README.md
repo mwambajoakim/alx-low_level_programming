@@ -2,3 +2,8 @@
 
 ## Introduction
 This is a continuation of the previous project on pointers. More depth and understanding of the concept using these projects. How to dereference pointer, use of arrays and strings as pointers and of course the previous concepts on conditionals, loops and functions in C.
+
+## 00 - This function that concatenates two strings.
+- Prototype: char `*_strcat(char *dest, char *src);`
+- This function appends the `src` string to the `dest` string, overwriting the terminating null byte `(\0)` at the end of `dest`, and then adds a terminating null byte.
+- Returns a pointer to the resulting string `dest`.
