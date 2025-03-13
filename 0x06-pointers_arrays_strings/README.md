@@ -36,7 +36,6 @@ This is a continuation of the previous project on pointers. More depth and under
 - Separators of words: space, tabulation, new line, `,`, `;`, `.`, `!`, `?`, `"`, `(`, `)`, `{`, and `}`.
 
 ## 07 - This function encodes a string into 1337.
-
 - Letters `a` and `A` should be replaced by `4`.
 - Letters `e` and `E` should be replaced by `3`.
 - Letters `o` and `O` should be replaced by `0`.
