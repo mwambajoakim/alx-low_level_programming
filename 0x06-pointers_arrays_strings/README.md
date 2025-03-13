@@ -28,3 +28,5 @@ This is a continuation of the previous project on pointers. More depth and under
 - Where `n` is the number of elements of the array.
 - _This one was ineresting especially the part where I swapped elements._
 
+## 05 - This function changes all lowercase letters of a string to uppercase.
+- Prototype: `char *string_toupper(char *);`
