@@ -3,22 +3,28 @@
 ## Introduction
 This is a continuation of the previous project on pointers. More depth and understanding of the concept using these projects. How to dereference pointer, use of arrays and strings as pointers and of course the previous concepts on conditionals, loops and functions in C.
 
-## 00 - This function that concatenates two strings.
+## 00 - This function concatenates two strings.
 - Prototype: char `*_strcat(char *dest, char *src);`
 - This function appends the `src` string to the `dest` string, overwriting the terminating null byte `(\0)` at the end of `dest`, and then adds a terminating null byte.
 - Returns a pointer to the resulting string `dest`.
 
-## 01 - This function that concatenates two strings.
+## 01 - This function concatenates two strings.
 - Prototype: `char *_strncat(char *dest, char *src, int n);`
 - The `_strncat` function is similar to the `_strcat` function, except that
 	- it will use at most `n` bytes from `src`; and
 	- `src` does not need to be null-terminated if it contains `n` or more bytes.
 - Return a pointer to the resulting string `dest`.
 
-## 02 - This function that copies a string.
+## 02 - This function copies a string.
 - Prototype: `char *_strncpy(char *dest, char *src, int n);`
 - This function works exactly like `strncpy`.
 
-## 03 - This function that compares two strings.
+## 03 - This function compares two strings.
 - Prototype: `int _strcmp(char *s1, char *s2);`
 - This function work exactly like `strcmp`.
+
+## 04 - This function reverses the content of an array of integers.
+- Prototype: `void reverse_array(int *a, int n);`
+- Where `n` is the number of elements of the array.
+- _This one was ineresting especially the part where I swapped elements._
+
