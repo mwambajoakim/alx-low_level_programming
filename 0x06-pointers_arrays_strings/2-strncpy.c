@@ -14,10 +14,19 @@ char *_strncpy(char *dest, char *src, int n)
 {
 	int j;
 
+	/**
+	* Go through characters in src equal to n and copy
+	* to dest
+	*/
 	for (j = 0; src[j] != '\0' && j < n; j++)
 	{
 		dest[j] = src[j];
 	}
-	dest[j] = '\0';
+
+	/*Pad the space after with null characters*/
+	for (; j < n; j++)
+	{
+		dest[j] = '\0';
+	}
 	return (dest);
 }
