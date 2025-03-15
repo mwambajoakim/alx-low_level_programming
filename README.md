@@ -16,9 +16,11 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 5. [0x04-more_functions_nested_loops](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops)
 
-### [0x05-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
+### 6. [0x05-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x05-pointers_arrays_strings)
 
-### [0x06-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+### 7. [0x06-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
+
+### 8. [0x07-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
