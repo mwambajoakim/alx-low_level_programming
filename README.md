@@ -42,3 +42,6 @@ An introduction to pointers, arrays and strings. I used the concepts previously 
 
 ## 0x06-pointers_arrays_strings
 A deeper dive into how pointers are used in C. Includes to arrays and strings and how they are used to access and manipulate data just like pointers.
+
+## 0x07-pointers_arrays_strings
+Continuous deep dive into pointers, more specifically double pointer and two-dimesnional arrays.
