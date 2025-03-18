@@ -6,7 +6,7 @@
  * @s: Pointer to string.
  * @b: Values to fill memory area with.
  * @n: Number of bytes.
- * 
+ *
  * Return: Pointer to s.
  */
 
