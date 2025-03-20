@@ -10,4 +10,21 @@
  */
 
 char *_strchr(char *s, char c)
-{}
+{
+	int i;
+	
+	if (s == NULL)
+	{
+		return (NULL);
+	}
+
+	else 
+	{
+		for (i = 0; *s != '\0'; s++, i++)
+		{
+			if (*s == c)
+			return (s);
+		}
+	}
+	return (s);
+}
