@@ -18,15 +18,17 @@ char *_strchr(char *s, char c)
 		return (NULL);
 	}
 
-	else
+	if (s != NULL)
 	{
 		for (i = 0; *s != '\0'; s++, i++)
 		{
 			if (*s == c)
 			return (s);
-			else
-			return (NULL);
 		}
 	}
-	return (s);
+	else
+	{
+		return (NULL);
+	}
+return (s);
 }
