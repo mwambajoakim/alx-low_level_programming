@@ -1,6 +1,26 @@
 #include "main.h"
 
-/**
+ /**
+ * _strlen - Counts the number of characters in a string
+ * excluding the null terminator.
+ *
+ * @str: Pointer to string.
+ *
+ * Return: Number of characters.
+ */
+
+int _strlen(char *str)
+{
+	int i, len = 0;
+	for (i = 0; *str != '\0'; i++)
+	{
+		len++;
+	}
+
+	return (len);
+}
+
+ /**
  * _strchr - Locates character c in string s.
  *
  * @s: Pointer to string.
@@ -25,10 +45,6 @@ char *_strchr(char *s, char c)
 			if (*s == c)
 			return (s);
 		}
-	}
-	else
-	{
-		return (NULL);
 	}
 return (s);
 }
