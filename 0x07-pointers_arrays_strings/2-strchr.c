@@ -1,17 +1,16 @@
 #include "main.h"
 
- /**
- * _strlen - Counts the number of characters in a string
- * excluding the null terminator.
+/**
+ * _strlen - Counts characters in a string.
  *
  * @str: Pointer to string.
  *
- * Return: Number of characters.
+ * Return: Length of string.
  */
-
 int _strlen(char *str)
 {
 	int i, len = 0;
+
 	for (i = 0; *str != '\0'; i++)
 	{
 		len++;
@@ -20,13 +19,13 @@ int _strlen(char *str)
 	return (len);
 }
 
- /**
- * _strchr - Locates character c in string s.
+/**
+ * _strchr - Locates character c in s.
  *
  * @s: Pointer to string.
  * @c: Character to look for.
  *
- * Return: Pointer to first occurrence of the character.
+ * Return: Pointer to first occurence of character.
  */
 
 char *_strchr(char *s, char c)
