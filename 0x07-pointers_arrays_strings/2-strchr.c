@@ -32,6 +32,7 @@ int _strlen(char *str)
 char *_strchr(char *s, char c)
 {
 	int i;
+	int len = _strlen(s) + 1;
 
 	if (s == NULL)
 	{
@@ -40,11 +41,11 @@ char *_strchr(char *s, char c)
 
 	if (s != NULL)
 	{
-		for (i = 0; *s != '\0'; s++, i++)
+		for (i = 0; i < len; s++, i++)
 		{
 			if (*s == c)
 			return (s);
 		}
 	}
-return (s);
+return (NULL);
 }
