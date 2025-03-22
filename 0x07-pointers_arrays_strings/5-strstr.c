@@ -11,6 +11,11 @@
 
 char *_strstr(char *haystack, char *needle)
 {
+
+	if (*needle == NULL)
+	{
+		return (NULL);
+	}
 	if (haystack != NULL)
 	{
 		while (*haystack != '\0')
