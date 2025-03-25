@@ -22,6 +22,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 8. [0x07-pointers_arrays_strings](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 
+### 9. [0x08-Recursion](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x08-recursion)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
