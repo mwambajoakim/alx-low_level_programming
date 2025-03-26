@@ -19,3 +19,7 @@ int factorial(int n)
 ```
 
 In the above code, the compiler checks if the number is equal to either `0` or `1`. If it is, it returns `1`. If not, it goes into the second `return` and does the math, making the function call itself.
+
+## 00 - This function prints a string, followed by a new line.
+- Prototype: `void _puts_recursion(char *s);`
+- Works just like the standard library `puts` function
