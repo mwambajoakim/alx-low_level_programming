@@ -30,3 +30,8 @@ In the above code, the compiler checks if the number is equal to either `0` or `
 ## 02 - This function returns the length of a string.
 - Prototype: `int _strlen_recursion(char *s);`
 - Works just like the standard library `strlen` function
+
+## 03 - This function returns the factorial of a given number.
+- Prototype: `int factorial(int n);`
+- If `n` is lower than `0`, the function should return `-1` to indicate an error
+- Factorial of `0` is `1`
