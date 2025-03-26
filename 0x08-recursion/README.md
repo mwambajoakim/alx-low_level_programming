@@ -39,3 +39,7 @@ In the above code, the compiler checks if the number is equal to either `0` or `
 ## 04 - This function returns the value of x raised to the power of y.
 - Prototype: `int _pow_recursion(int x, int y);`
 - If `y` is lower than `0`, the function should return `-1`
+
+## 05 - This function returns the natural square root of a number.
+- Prototype: `int _sqrt_recursion(int n);`
+- If `n` does not have a natural square root, the function should return `-1`
