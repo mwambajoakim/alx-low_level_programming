@@ -35,3 +35,7 @@ In the above code, the compiler checks if the number is equal to either `0` or `
 - Prototype: `int factorial(int n);`
 - If `n` is lower than `0`, the function should return `-1` to indicate an error
 - Factorial of `0` is `1`
+
+## 04 - This function returns the value of x raised to the power of y.
+- Prototype: `int _pow_recursion(int x, int y);`
+- If `y` is lower than `0`, the function should return `-1`
