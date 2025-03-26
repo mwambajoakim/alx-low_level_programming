@@ -26,7 +26,7 @@ int sqrt_guess(int n, int guess)
 		return (guess);
 	}
 
-	return (_sqrt_guess(n, guess + 1));
+	return (sqrt_guess(n, guess + 1));
 }
 /**
  * _sqrt_recursion - Calculates the sqyare root of n.
