@@ -30,11 +30,11 @@ int prime_check(int n)
  *
  * Return: 1 if prime 0 otherwise.
  */
-
 int is_prime_number(int n)
 {
 	if (n > 5)
 	{
 		return (prime_check(n));
 	}
+	return (0);
 }
