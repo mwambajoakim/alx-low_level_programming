@@ -43,3 +43,6 @@ In the above code, the compiler checks if the number is equal to either `0` or `
 ## 05 - This function returns the natural square root of a number.
 - Prototype: `int _sqrt_recursion(int n);`
 - If `n` does not have a natural square root, the function should return `-1`
+
+## 06 - This function returns 1 if the input integer is a prime number, otherwise return 0.
+- Prototype: `int is_prime_number(int n);`
