@@ -33,7 +33,7 @@ int sqrt_guess(int n, int guess)
  *
  * @n: Number to calculate square root.
  *
- * Return quare root of n.
+ * Return: Square root of n.
  */
 
 int _sqrt_recursion(int n)
