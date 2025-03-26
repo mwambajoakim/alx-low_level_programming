@@ -24,5 +24,9 @@ In the above code, the compiler checks if the number is equal to either `0` or `
 - Prototype: `void _puts_recursion(char *s);`
 - Works just like the standard library `puts` function
 
-## 01 - This  function prints a string in reverse.
+## 01 - This function prints a string in reverse.
 - Prototype: `void _print_rev_recursion(char *s);`
+
+## 02 - This function returns the length of a string.
+- Prototype: `int _strlen_recursion(char *s);`
+- Works just like the standard library `strlen` function
