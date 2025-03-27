@@ -26,6 +26,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 10. [0x09-static_libraries](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x09-static_libraries)
 
+### 11. [0x0A-argc_argv](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0A-argc_argv)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -55,3 +57,6 @@ This project is about functions calling themselves inside the same function.
 
 ## 0x09-static_libraries
 Project dives into the creation of static libraries locally and making object files. It also shows the creation of a script to automate this process.
+
+## 0x0A-argc_argv
+A deep dive into command line arguments that are supplied to a program through argc and argv.
