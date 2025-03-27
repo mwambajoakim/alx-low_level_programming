@@ -24,6 +24,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 9. [0x08-recursion](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x08-recursion)
 
+### 10. [0x09-static_libraries](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x09-static_libraries)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -50,3 +52,6 @@ Continuous deep dive into pointers, more specifically double pointer and two-dim
 
 ## 0x08-recursion
 This project is about functions calling themselves inside the same function.
+
+## 0x09-static_libraries
+Project dives into the creation of static libraries locally and making object files. It also shows the creation of a script to automate this process.
