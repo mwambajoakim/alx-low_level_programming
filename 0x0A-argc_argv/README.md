@@ -20,3 +20,8 @@ In this project I take a deep dive into these command line arguments.
 ## 02 - This program prints all arguments it receives.
 - All arguments are printed, including the first one
 - It only prints one argument per line, ending with a new line
+
+## 03 - This program multiplies two numbers.
+- The program prints the result of the multiplication, followed by a new line
+- The assumption made is that the two numbers and result of the multiplication can be stored in an integer
+- If the program does not receive two arguments, it prints `Error`, followed by a new line, and return `1`
