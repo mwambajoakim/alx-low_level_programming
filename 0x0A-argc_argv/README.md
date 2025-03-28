@@ -13,3 +13,6 @@ In this project I take a deep dive into these command line arguments.
 
 - If you rename the program, it will print the new name, without having to compile it again
 - The path has not been removed before the name of the program
+
+## 01 - This program prints the number of arguments passed into it.
+- The program prints a number, followed by a new line
