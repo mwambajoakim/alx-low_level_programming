@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 
 	if (argc > 2)
 	{
-		for (i = 2; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			if (!is_number(argv[i]))
 			{
