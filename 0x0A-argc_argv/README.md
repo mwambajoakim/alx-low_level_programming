@@ -8,3 +8,8 @@ Say the program `GCC` whenever it is invoked to compile a program we usually sup
 We can do all this by inserting the arguments `argc` and `argv` into our `main` function. `Argc` is the number of arguments that are passed to `main` and `argv` is the argument vector. `Argv` is a pointer to ana array of characters.
 
 In this project I take a deep dive into these command line arguments.
+
+## 00 - This program prints its name, followed by a new line.
+
+- If you rename the program, it will print the new name, without having to compile it again
+- The path has not been removed before the name of the program
