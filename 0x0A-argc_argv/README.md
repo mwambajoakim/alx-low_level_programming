@@ -16,3 +16,7 @@ In this project I take a deep dive into these command line arguments.
 
 ## 01 - This program prints the number of arguments passed into it.
 - The program prints a number, followed by a new line
+
+## 02 - This program prints all arguments it receives.
+- All arguments are printed, including the first one
+- It only prints one argument per line, ending with a new line
