@@ -70,30 +70,20 @@ char *_strcat(char *dest, char *src)
 
 char *str_concat(char *s1, char *s2)
 {
-	int i, j, k, length;
+	int length;
 	char *alloc_mem;
 
-	if (s1 == NULL || s2 == NULL)
-	{
-		return (NULL);
-	}
-
-	for (i = 0; s1[i] != '\0'; i++);
-	for (j = 0; s2[j] != '\0'; j++)
-	{
-		s1[j] = s2[j];
-	}
-	*s1 = '\0';
-
-	length = _strlen(s1) + 1;
+	length = _strlen(s1) + _strlen(s2) + 1;
 	alloc_mem = malloc(length * sizeof(char));
 	if (alloc_mem == NULL)
 	{
 		return (NULL);
 	}
-	for (k = 0; k < length; k++)
+	if (s1 == NULL || s2 == NULL)
 	{
-		alloc_mem[k] = s1[k];
+		return (NULL);
 	}
+	_strcpy(alloc_mem, s1);
+	_strcat(alloc_mem, s2);
 	return (alloc_mem);
 }
