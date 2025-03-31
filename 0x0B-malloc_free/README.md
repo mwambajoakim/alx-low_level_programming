@@ -8,3 +8,8 @@ For the past projects, the compiler has been allocating memory to the arrays, st
 After this memory allocation, one needs to free the memory area so that other programs can use it. That is where `void *free()` comes in. It frees the memory area pointed to by `malloc` and returns it to the heap.
 
 In this project I will explore the fundamentals of dynamic memory allocation using `malloc()` and freeing the memory area using `free()`
+
+## 00 - This function creates an array of chars, and initializes it with a specific char.
+- Prototype: `char *create_array(unsigned int size, char c);`
+- Returns `NULL` if `size` = `0`
+- Returns a pointer to the array, or `NULL` if it fails
