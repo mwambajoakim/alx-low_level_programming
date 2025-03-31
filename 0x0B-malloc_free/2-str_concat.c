@@ -75,12 +75,18 @@ char *str_concat(char *s1, char *s2)
 	char *alloc_mem;
 
 	if (s1 == NULL && s2 == NULL)
+	{
 		s1 = "";
 		s2 = "";
+	}
 	if (s1 == NULL)
+	{
 		s1 = "";
+	}
 	if (s2 == NULL)
+	{
 		s2 = "";
+	}
 
 	length = _strlen(s1) + _strlen(s2) + 1;
 	alloc_mem = malloc(length * sizeof(char));
