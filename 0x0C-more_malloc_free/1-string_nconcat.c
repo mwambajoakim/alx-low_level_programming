@@ -27,6 +27,7 @@ int _strlen(char *str)
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
+
 	while (*src != '\0')
 	{
 		*dest = *src;
@@ -35,6 +36,7 @@ char *_strcpy(char *dest, char *src)
 		i++;
 	}
 	*dest = '\0';
+	return (dest);
 }
 
 /**
@@ -71,7 +73,7 @@ char *_strncat(char *dest, char *src, unsined int n)
  * @s2: Ponter to string.
  * @n: Number of bytes of s2.
  *
- * Return s1 after the concatenation..
+ * Return: s1 after the concatenation..
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -92,11 +94,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	}
 	length = _strlen(s1) + n + 1;
-	alloc_mem = malloc(length * sizeof *alloc_mem);
-	
+	alloc_mem = malloc(length * sizeof(*alloc_mem));
+
 	if (alloc_mem == NULL)
 	{
-		retuurn (NULL);
+		return (NULL);
 	}
 	_strcpy(alloc_mem, s1);
 	_strncat(alloc_mem, s2, n);
