@@ -31,3 +31,6 @@ In this project I will explore the fundamentals of dynamic memory allocation usi
 - Each element of the grid is initialized to `0`
 - The function returns `NULL` on failure
 - If `width` or `height` is `0` or `negative`, returns `NULL`
+
+## 04 - This function frees a 2 dimensional grid previously created by your alloc_grid function.
+- Prototype: -`void free_grid(int **grid, int height);`
