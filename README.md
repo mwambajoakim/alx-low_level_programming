@@ -28,6 +28,10 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 11. [0x0A-argc_argv](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0A-argc_argv)
 
+### 12. [0x0B-malloc_free](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0B-malloc_free)
+
+### 13. [0x0C-more_malloc_free](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -60,3 +64,9 @@ Project dives into the creation of static libraries locally and making object fi
 
 ## 0x0A-argc_argv
 A deep dive into command line arguments that are supplied to a program through argc and argv.
+
+## 0x0B-malloc_free
+A dive into the `stdlib.h` functions, `malloc()` and `free()`
+
+## 0x0C-more_malloc_free
+Besides `malloc()` and `free()`, there are other functions that can be used to allocate memory in C. In this project I look at `realloc()` and `calloc()` functions
