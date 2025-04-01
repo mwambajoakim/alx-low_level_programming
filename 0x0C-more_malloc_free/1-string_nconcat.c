@@ -47,10 +47,10 @@ char *_strcpy(char *dest, char *src)
  *
  * Return: Pointer to dest.
  */
-char *_strncat(char *dest, char *src, unsined int n)
+char *_strncat(char *dest, char *src, unsigned int n)
 {
 	char *tmp = dest;
-	int i = 0;
+	unsigned int i = 0;
 
 	while (*tmp != '\0')
 	{
