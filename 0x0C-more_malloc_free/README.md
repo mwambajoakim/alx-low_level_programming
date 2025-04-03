@@ -25,3 +25,10 @@ In this example, the results of malloca are implicitly cast to an integer type.
 - The memory is set to zero
 - If `nmemb` or `size` is `0`, then `_calloc` returns `NULL`
 - If `malloc` fails, then `_calloc` returns `NULL`
+
+## 03 - This function creates an array of integers.
+- Prototype: `int *array_range(int min, int max);`
+- The array created contains all the values from `min` (included) to `max` (included), ordered from `min` to `max`
+- Return: the pointer to the newly created array
+- If `min > max`, return `NULL`
+- If `malloc` fails, return `NULL`
