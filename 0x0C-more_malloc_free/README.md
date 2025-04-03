@@ -6,3 +6,8 @@ In this project I dive into the `malloc()` function and also into its relatives,
 int *users = malloc(length * sizeof *users);
 ```
 In this example, the results of malloca are implicitly cast to an integer type.
+
+## 00 - This function allocates memory using malloc.
+- Prototype: `void *malloc_checked(unsigned int b);`
+- Returns a pointer to the allocated memory
+- if `malloc` fails, the `malloc_checked` function should cause normal process termination with a status value of `98`
