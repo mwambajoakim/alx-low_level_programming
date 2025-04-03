@@ -22,3 +22,6 @@ Some common directives used include:
 
 ## 03 - This function-like macro ABS(x)  computes the absolute value of a number x
 - `#define ABS(x)`
+
+## 04 - This function-like macro SUM(x, y)  computes the sum of the numbers x and y
+- `#define SUM(x, y)`
