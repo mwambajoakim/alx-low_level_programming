@@ -32,6 +32,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 13. [0x0C-more_malloc_free](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0C-more_malloc_free)
 
+### 14. [0x0D-preprocessor](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0D-preprocessor)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -70,3 +72,6 @@ A dive into the `stdlib.h` functions, `malloc()` and `free()`
 
 ## 0x0C-more_malloc_free
 Besides `malloc()` and `free()`, there are other functions that can be used to allocate memory in C. In this project I look at `realloc()` and `calloc()` functions
+
+## 0x0D-preproocessor
+Directives that are used in C programming to make work easier. 
