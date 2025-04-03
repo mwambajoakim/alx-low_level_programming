@@ -18,12 +18,12 @@ int *array_range(int min, int max)
 	}
 
 	ptr = malloc((max - min + 1) * sizeof(*ptr));
-	if(ptr == NULL)
+	if (ptr == NULL)
 	{
 		return (NULL);
 	}
 	tmp = ptr;
-	while(i <= max)
+	while (i <= max)
 	{
 		*tmp = min;
 		tmp++;
