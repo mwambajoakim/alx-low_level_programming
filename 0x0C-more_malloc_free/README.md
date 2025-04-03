@@ -18,3 +18,10 @@ In this example, the results of malloca are implicitly cast to an integer type.
 - If the function fails, it should return `NULL`
 - If `n` is greater or equal to the length of `s2` it uses the entire string `s2`
 - if `NULL` is passed, it is treated as an empty string
+
+## 02 - This function allocates memory for an array, using malloc.
+- Prototype: `void *_calloc(unsigned int nmemb, unsigned int size);`
+- The `_calloc` function allocates memory for an array of `nmemb `elements of `size` bytes each and returns a pointer to the allocated memory.
+- The memory is set to zero
+- If `nmemb` or `size` is `0`, then `_calloc` returns `NULL`
+- If `malloc` fails, then `_calloc` returns `NULL`
