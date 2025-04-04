@@ -11,3 +11,8 @@ In this case `l_int` can be used to declare variables with a `long int` datatype
 ```
 l_int number = 500;
 ```
+
+## 00 - Defines a new type struct dog with the following elements:
+- `name`, type = `char *`
+- `age`, type = `float`
+- `owner`, type = `char *`
