@@ -25,3 +25,5 @@ l_int number = 500;
 - Used the standard library
 - If an element of `d` is `NULL`, prints `(nil)` instead of this element. (if `name` is `NULL`, prints `Name: (nil)`)
 - If `d` is `NULL` print nothing.
+
+## 03 - Defines a new type `dog_t` as a new name for the type `struct dog`
