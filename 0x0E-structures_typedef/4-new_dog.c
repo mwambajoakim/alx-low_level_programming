@@ -69,8 +69,8 @@ dog_t *tmp_dog = malloc(sizeof(dog_t));
 if (!tmp_dog)
 	return (NULL);
 
-tmp_dog->name = name ? strdup(name) : strdup("");
-tmp_dog->owner = owner ? strdup(owner) : strdup("");
+tmp_dog->name = name ? _strdup(name) : _strdup("");
+tmp_dog->owner = owner ? _strdup(owner) : _strdup("");
 
 if (!tmp_dog->name || !tmp_dog->owner)
 {
