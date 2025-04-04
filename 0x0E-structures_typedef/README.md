@@ -27,3 +27,8 @@ l_int number = 500;
 - If `d` is `NULL` print nothing.
 
 ## 03 - Defines a new type `dog_t` as a new name for the type `struct dog`
+
+## 04 - This function creates a new dog.
+- Prototype: `dog_t *new_dog(char *name, float age, char *owner);`
+- Stores a copy of `name` and `owner`
+- Return `NULL` if the function fails
