@@ -34,6 +34,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 14. [0x0D-preprocessor](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0D-preprocessor)
 
+### 15. [0x0E-structures_tyoedef](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0E-structures_typedef)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -74,4 +76,7 @@ A dive into the `stdlib.h` functions, `malloc()` and `free()`
 Besides `malloc()` and `free()`, there are other functions that can be used to allocate memory in C. In this project I look at `realloc()` and `calloc()` functions
 
 ## 0x0D-preproocessor
-Directives that are used in C programming to make work easier. 
+Directives that are used in C programming to make work easier.
+
+## 0x0E-structures_typedef
+Structures help to hold different datatypes all together and typedef is used to make synonyms of datatypes
