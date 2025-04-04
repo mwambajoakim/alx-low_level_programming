@@ -32,3 +32,6 @@ l_int number = 500;
 - Prototype: `dog_t *new_dog(char *name, float age, char *owner);`
 - Stores a copy of `name` and `owner`
 - Return `NULL` if the function fails
+
+## 05 - This function frees dogs.
+- Prototype: `void free_dog(dog_t *d);`
