@@ -19,3 +19,9 @@ l_int number = 500;
 
 ## 01 - This function initializes a variable of type struct dog
 - Prototype: `void init_dog(struct dog *d, char *name, float age, char *owner);`
+
+## 02 - This function prints a struct dog
+- Prototype: `void print_dog(struct dog *d);`
+- Used the standard library
+- If an element of `d` is `NULL`, prints `(nil)` instead of this element. (if `name` is `NULL`, prints `Name: (nil)`)
+- If `d` is `NULL` print nothing.
