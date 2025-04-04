@@ -16,3 +16,6 @@ l_int number = 500;
 - `name`, type = `char *`
 - `age`, type = `float`
 - `owner`, type = `char *`
+
+## 01 - This function initializes a variable of type struct dog
+- Prototype: `void init_dog(struct dog *d, char *name, float age, char *owner);`
