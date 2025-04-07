@@ -36,6 +36,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 15. [0x0E-structures_tyoedef](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0E-structures_typedef)
 
+### 16. [0x0F-ffunction_pointers](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0F-function_pointers)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -80,3 +82,6 @@ Directives that are used in C programming to make work easier.
 
 ## 0x0E-structures_typedef
 Structures help to hold different datatypes all together and typedef is used to make synonyms of datatypes
+
+## 0x0F-function_pointers
+Pointers are used to point to addresses of other variables but they can also be used to point to other functions and return their result.
