@@ -47,3 +47,15 @@ int op_div(int a, int b)
 {
 	return (a / b);
 }
+
+/**
+ * op_mod - Gets remainder of a divide by b.
+ * @a: First integer.
+ * @b: Second integer.
+ *
+ * Return: a modulo b.
+ */
+int op_mod(int a, int b)
+{
+	return (a % b);
+}
