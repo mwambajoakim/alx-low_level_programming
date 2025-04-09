@@ -23,3 +23,15 @@ int op_sub(int a, int b)
 {
 	return (a - b);
 }
+
+/**
+ * op_mul - Multiplies a and b.
+ * @a: First integer.
+ * @b: Second integer.
+ *
+ * Return: Multiplication of a and b.
+ */
+int op_mul(int a, int b)
+{
+	return (a * b);
+}
