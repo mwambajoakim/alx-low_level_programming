@@ -35,3 +35,15 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
+
+/**
+ * op_div - Divides a by b.
+ * @a: First integer.
+ * @b: Second integer.
+ *
+ * Return: Division of a and b.
+ */
+int op_div(int a, int b)
+{
+	return (a / b);
+}
