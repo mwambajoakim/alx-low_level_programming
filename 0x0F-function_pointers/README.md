@@ -20,3 +20,18 @@ Function pointers function just like normal pointer variables but they point to 
 - `int_index` returns the index of the first element for which the `cmp` function does not return `0`
 - If no element matches, returns `-1`
 - If `size <= 0`, returns `-1`
+
+## 03 - This  program performs simple operations.
+- Usage: `calc` `num1` `operator` `num2`
+- Assumption is that `num1` and `num2` are integers, so the `atoi ` function is useed to convert them from the string input to `int`
+- Operator is one of the following:
+	- `+`: addition
+	- `-`: subtraction
+	- `*`: multiplication
+	- `/`: division
+	- `%`: modulo
+- The program prints the result of the operation, followed by a new line
+- Assumption is that the result of all operations is stored in an `int`
+- if the number of arguments is wrong, prints `Error`, followed by a new line, and exit with the status `98`
+- if the operator is none of the above, print `Error`, followed by a new line, and exit with the status `99`
+- if the user tries to divide `(/ or %)` by `0`, prints `Error`, followed by a new line, and exit with the status `100`
