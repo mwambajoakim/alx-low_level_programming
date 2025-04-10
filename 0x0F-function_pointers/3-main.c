@@ -1,4 +1,4 @@
-#include "3-cal.h"
+#include "3-calc.h"
 
 /**
  * main - Entry point function.
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 
-	operator = get_op_function(argv[2]);
+	operator = get_op_func(argv[2]);
 	if (operator == NULL)
 	{
 		printf("Error\n");
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
-	if ((argv[2][0] == "/" || argv[2][0] == "%") && num2 == 0)
+	if ((argv[2][0] == '/' || argv[2][0] == '%') && num2 == 0)
 	{
 		printf("Error\n");
 		exit(100);
