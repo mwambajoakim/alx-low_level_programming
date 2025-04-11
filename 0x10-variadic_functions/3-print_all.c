@@ -19,11 +19,11 @@ void print_all(const char * const format, ...)
 	{
 		if (*ptr != '\0')
 		{
-			switch(*ptr)
+			switch (*ptr)
 			{
 				case 'c':
 					ltr = va_arg(args, int);
-					printf("%c%s", ltr,separator);
+					printf("%c%s", ltr, separator);
 					break;
 				case 'i':
 					num = va_arg(args, int);
