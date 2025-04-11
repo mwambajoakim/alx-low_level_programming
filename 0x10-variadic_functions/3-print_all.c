@@ -6,40 +6,40 @@
  */
 void print_all(const char * const format, ...)
 {
-	char ltr;
+	char ltr, *str;
 	int num;
 	float dec;
-	char *str;
 	char const *ptr = format;
-	char *separator = {", "};
+	const char *separator = "";
 	va_list args;
 
 	va_start(args, format);
 	while (*ptr)
 	{
-		if (*ptr != '\0')
+		switch (*ptr)
 		{
-			switch (*ptr)
-			{
-				case 'c':
-					ltr = va_arg(args, int);
-					printf("%c%s", ltr, separator);
-					break;
-				case 'i':
-					num = va_arg(args, int);
-					printf("%d%s", num, separator);
-					break;
-				case 'f':
-					dec = va_arg(args, double);
-					printf("%f%s", dec, separator);
-					break;
-				case 's':
-					str = va_arg(args, char *);
-					if (str == NULL)
-						str = "nil";
-					printf("%s%s", str, separator);
-					break;
-			}
+			case 'c':
+				ltr = va_arg(args, int);
+				printf("%s%c", separator, ltr);
+				separator = ", ";
+				break;
+			case 'i':
+				num = va_arg(args, int);
+				printf("%s%d", separator, num);
+				separator = ", ";
+				break;
+			case 'f':
+				dec = va_arg(args, double);
+				printf("%s%f", separator, dec);
+				separator = ", ";
+				break;
+			case 's':
+				str = va_arg(args, char *);
+				if (str == NULL)
+					str = "nil";
+				printf("%s%s", separator, str);
+				separator = ", ";
+				break;
 		}
 		ptr++;
 	}
