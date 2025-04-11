@@ -24,7 +24,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		else if (str == '\0')
 		{
-			str == "(empty)";
+			str = "(empty)";
 		}
 		printf("%s", str);
 		if (i != n - 1)
