@@ -10,7 +10,6 @@ void print_all(const char * const format, ...)
 	int num;
 	float dec;
 	char const *ptr = format;
-	const char *separator = "";
 	va_list args;
 
 	if (format == NULL)
@@ -19,6 +18,7 @@ void print_all(const char * const format, ...)
 	while (*ptr)
 	{
 		switch (*ptr)
+		{
 			case 'c':
 				ltr = va_arg(args, int);
 				printf("%s%c", separator, ltr);
@@ -41,6 +41,7 @@ void print_all(const char * const format, ...)
 				printf("%s%s", separator, str);
 				separator = ", ";
 				break;
+		}
 		ptr++;
 	}
 	printf("\n");
