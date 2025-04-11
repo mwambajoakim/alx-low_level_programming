@@ -38,6 +38,8 @@ C being a low level programming language is a start on this journey of coding an
 
 ### 16. [0x0F-ffunction_pointers](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x0F-function_pointers)
 
+### 17. [0x10-variadic_functions](https://github.com/mwambajoakim/alx-low_level_programming/tree/master/0x10-variadic_functions)
+
 ## 0x00-hello_world
 This project mainly consisted of an introduction to writing C scripts inorder to perform basic operations in the shell.
 
@@ -85,3 +87,6 @@ Structures help to hold different datatypes all together and typedef is used to 
 
 ## 0x0F-function_pointers
 Pointers are used to point to addresses of other variables but they can also be used to point to other functions and return their result.
+
+## 0x10-variadic_functions
+Variadic functions are functions that take a variable number of arguments.
