@@ -11,19 +11,19 @@ void print_all(const char * const format, ...)
 	float dec;
 	char *str;
 	char const *ptr = format;
-	va_list list;
+	va_list args;
 
-	va_start(list, format);
+	va_start(args, format);
 	while (*ptr)
 	{
 		switch(*ptr)
 		{
 			case 'c':
-				ltr = va_arg(format, int);
+				ltr = va_arg(args, int);
 				printf("%c", ltr);
 				break;
 		}
 	}
 	printf("\n");
-	va_end(format);
+	va_end(args);
 }
