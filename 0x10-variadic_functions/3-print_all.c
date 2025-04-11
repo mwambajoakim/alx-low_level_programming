@@ -21,25 +21,25 @@ void print_all(const char * const format, ...)
 		{
 			case 'c':
 				ltr = va_arg(args, int);
-				printf("%s%c", separator, ltr);
-				separator = ", ";
+				printf("%s%c", sep, ltr);
+				sep = ", ";
 				break;
 			case 'i':
 				num = va_arg(args, int);
-				printf("%s%d", separator, num);
-				separator = ", ";
+				printf("%s%d", sep, num);
+				sep = ", ";
 				break;
 			case 'f':
 				dec = va_arg(args, double);
-				printf("%s%f", separator, dec);
-				separator = ", ";
+				printf("%s%f", sep, dec);
+				sep = ", ";
 				break;
 			case 's':
 				str = va_arg(args, char *);
 				if (str == NULL)
 					str = "(nil)";
-				printf("%s%s", separator, str);
-				separator = ", ";
+				printf("%s%s", sep, str);
+				sep = ", ";
 				break;
 		}
 		ptr++;
