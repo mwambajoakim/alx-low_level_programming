@@ -6,7 +6,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 
-const char *separator = "";
+const char *sep = "";
 
 int _putchar(char);
 int sum_them_all(const unsigned int n, ...);
