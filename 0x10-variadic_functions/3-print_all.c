@@ -26,6 +26,14 @@ void print_all(const char * const format, ...)
 				num = va_arg(args, int);
 				printf("%d", num);
 				break;
+			case 'f':
+				dec = va_arg(args, double);
+				printf("%f", dec);
+				break;
+			case 's':
+				str = va_arg(args, char *);
+				printf("%s", str);
+				break;
 		}
 	}
 	printf("\n");
