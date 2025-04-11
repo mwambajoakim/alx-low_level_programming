@@ -13,11 +13,12 @@ void print_all(const char * const format, ...)
 	const char *separator = "";
 	va_list args;
 
+	if (format == NULL)
+		return;
 	va_start(args, format);
 	while (*ptr)
 	{
 		switch (*ptr)
-		{
 			case 'c':
 				ltr = va_arg(args, int);
 				printf("%s%c", separator, ltr);
@@ -40,7 +41,6 @@ void print_all(const char * const format, ...)
 				printf("%s%s", separator, str);
 				separator = ", ";
 				break;
-		}
 		ptr++;
 	}
 	printf("\n");
