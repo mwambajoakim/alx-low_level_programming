@@ -6,30 +6,23 @@
  */
 void print_all(const char * const format, ...)
 {
-	char c;
-	int i;
-	float f;
-	char *s;
-	unsigned int i, len;
+	char ltr;
+	int num;
+	float dec;
+	char *str;
+	char const *ptr = format;
 	va_list list;
 
-	if (format == NULL)
-		return;
-
-	len = _strlen(format);
-	i = 0;
-	va_start(list, len);
-	while (i < len)
+	va_start(list, format);
+	while (*ptr)
 	{
-		c = va_args(format, char);
-		printf("%c", c);
-		i = va_args(format, int);
-		printf("%d", i);
-		f = va_args(format, float);
-		printf("%f", f);
-		s = va_arg(format, char *);
-		printf("%s", s);
-		i++;
+		switch(*ptr)
+		{
+			case 'c':
+				ltr = va_arg(format, int);
+				printf("%c", ltr);
+				break;
+		}
 	}
 	printf("\n");
 	va_end(format);
