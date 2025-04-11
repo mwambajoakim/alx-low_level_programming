@@ -22,6 +22,10 @@ void print_all(const char * const format, ...)
 				ltr = va_arg(args, int);
 				printf("%c", ltr);
 				break;
+			case 'i':
+				num = va_arg(args, int);
+				printf("%d", num);
+				break;
 		}
 	}
 	printf("\n");
