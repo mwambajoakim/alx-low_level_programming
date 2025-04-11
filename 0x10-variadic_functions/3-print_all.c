@@ -1,23 +1,6 @@
 #include "variadic_functions.h"
 
 /**
- * _strlen - Finds the length of a string.
- * @str: Pointer to string.
- *
- * Return: tring length.
- */
-int _strlen(char *str)
-{
-	int i, len = o;
-
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		len++;
-	}
-	return (len);
-}
-
-/**
  * print_all - Prints any argument given.
  * @format: Pointer to format string.
  */
