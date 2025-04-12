@@ -10,8 +10,10 @@ void print_all(const char * const format, ...)
 	va_list args;
 
 	if (format == NULL)
+	{
 		printf("\n");
-	return;
+		return;
+	}
 	va_start(args, format);
 	while (*ptr)
 	{
