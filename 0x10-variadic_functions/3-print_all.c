@@ -5,9 +5,7 @@
  */
 void print_all(const char * const format, ...)
 {
-	char ltr, *str, *sep = "";
-	int num;
-	float dec;
+	char *str, *sep = "";
 	char const *ptr = format;
 	va_list args;
 
@@ -19,18 +17,15 @@ void print_all(const char * const format, ...)
 		switch (*ptr)
 		{
 			case 'c':
-				ltr = va_arg(args, int);
-				printf("%s%c", sep, ltr);
+				printf("%s%c", sep, va_arg(args, int));
 				sep = ", ";
 				break;
 			case 'i':
-				num = va_arg(args, int);
-				printf("%s%d", sep, num);
+				printf("%s%d", sep, va_arg(args, int));
 				sep = ", ";
 				break;
 			case 'f':
-				dec = va_arg(args, double);
-				printf("%s%f", sep, dec);
+				printf("%s%f", sep, va_arg(args, double));
 				sep = ", ";
 				break;
 			case 's':
