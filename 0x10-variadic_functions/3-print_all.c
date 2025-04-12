@@ -1,12 +1,11 @@
 #include "variadic_functions.h"
-
 /**
  * print_all - Prints any argument given.
  * @format: Pointer to format string.
  */
 void print_all(const char * const format, ...)
 {
-	char ltr, *str;
+	char ltr, *str, *sep = "";
 	int num;
 	float dec;
 	char const *ptr = format;
@@ -37,7 +36,7 @@ void print_all(const char * const format, ...)
 			case 's':
 				str = va_arg(args, char *);
 				if (str == NULL)
-					str = "(nil)";
+				str = "(nil)";
 				printf("%s%s", sep, str);
 				sep = ", ";
 				break;
