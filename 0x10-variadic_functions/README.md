@@ -17,3 +17,11 @@ In C there exists function that can take a variable number of parameters. These 
 - and `n` is the number of integers passed to the function
 - If `separator` is `NULL`, it is not printed
 - Prints a new line at the end of the function
+
+## 02 - This function prints strings, followed by a new line.
+- Prototype: `void print_strings(const char *separator, const unsigned int n, ...);`
+- where `separator` is the string to be printed between the strings
+- and `n` is the number of strings passed to the function
+- If `separator` is `NULL`, it does not print it
+- If one of the string is `NULL`, prints `(nil)` instead
+- Prints a new line at the end of the function
