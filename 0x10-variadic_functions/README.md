@@ -25,3 +25,14 @@ In C there exists function that can take a variable number of parameters. These 
 - If `separator` is `NULL`, it does not print it
 - If one of the string is `NULL`, prints `(nil)` instead
 - Prints a new line at the end of the function
+
+## 03 - This function prints anything.
+- Prototype: `void print_all(const char * const format, ...);`
+- where `format` is a list of types of arguments passed to the function
+	- `c`: `char`
+	- `i`: `integer`
+	- `f`: `float`
+	- `s`: `char *` (if the string is `NULL`, print `(nil)` instead)
+	- any other char is ignored
+- No use of `for`, `goto`, ternary operator, `else`, `do ... while`
+- Prints a new line at the end of the function
