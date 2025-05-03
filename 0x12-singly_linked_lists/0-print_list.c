@@ -19,7 +19,7 @@ size_t print_list(const list_t *h)
 		{
 			for (i = 0; temp->str[i] != '\0'; i++)
 			;
-			printf("[%d] %s", temp->len, temp->str);
+			printf("[%d] %s\n", temp->len, temp->str);
 		}
 		count++;
 		temp = temp->next;
