@@ -26,7 +26,7 @@ unsigned int _strlen(char *str)
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	const list_t *new_node;
+	list_t *new_node;
 	const char *ptr;
 	unsigned int length;
 
