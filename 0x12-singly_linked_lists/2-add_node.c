@@ -6,7 +6,7 @@
  *
  * Return: Number of characters.
  */
-unsigned int _strlen(char *str);
+unsigned int _strlen(char *str)
 {
 	unsigned int i, len = 0;
 
