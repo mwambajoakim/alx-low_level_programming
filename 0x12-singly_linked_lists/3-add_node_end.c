@@ -16,3 +16,14 @@ unsigned int _strlen(char *str)
 	}
 	return (len);
 }
+
+/**
+ * add_node_end - Adds a node to end of a list.
+ * @head: Pointer to head node.
+ * @str: Pointer to a string.
+ *
+ * Return: Pointer to the node.
+ */
+{
+	
+}
