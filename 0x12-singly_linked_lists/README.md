@@ -33,3 +33,8 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 - Prototype: `list_t *add_node(list_t **head, const char *str);`
 - Returns: the address of the new element, or `NULL` if it failes
 - `str` duplicated using `strdup`
+
+## 03 - This function adds a new node at the end of a list_t list.
+- Prototype: `list_t *add_node_end(list_t **head, const char *str);`
+- Returns: the address of the new element, or `NULL` if it failed
+- `str` was duplicated using `strdup`
