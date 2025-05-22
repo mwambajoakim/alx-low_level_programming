@@ -19,3 +19,8 @@ typedef struct Node
 } Node;
 ```
 This can be called using ``` Node ``` since it has been `typedef`ed.
+
+## 00 - This function prints all the elements of a listint_t list.
+- Prototype: `size_t print_listint(const listint_t *h);`
+- Return: the number of nodes
+- No use of `printf`
