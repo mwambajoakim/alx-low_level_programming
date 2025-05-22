@@ -41,3 +41,6 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 
 ## 04 - This function frees a list_t list.
 `Prototype: void free_list(list_t *head);`
+
+## 05 - This function prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the main function is executed.
+- Used the printf function
