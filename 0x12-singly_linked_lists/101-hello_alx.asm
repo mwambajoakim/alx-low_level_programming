@@ -1,5 +1,5 @@
 section .data
-    message db "Hello, ALX", 10, 0   ; The string with newline and null terminator
+    message db "Hello, Holberton", 10, 0   ; The string with newline and null terminator
 
 section .text
     global main                      ; Entry point for linking with gcc
