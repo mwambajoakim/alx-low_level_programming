@@ -54,7 +54,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (*head == NULL)
 	{
 		*head = new_node;
-		return (*head);
+		return (new_node);
 	}
 	temp = *head;
 	while (temp->next != NULL)
