@@ -38,3 +38,6 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 - Prototype: `list_t *add_node_end(list_t **head, const char *str);`
 - Returns: the address of the new element, or `NULL` if it failed
 - `str` was duplicated using `strdup`
+
+## 04 - This function frees a list_t list.
+`Prototype: void free_list(list_t *head);`
