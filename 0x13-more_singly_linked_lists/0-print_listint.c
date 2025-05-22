@@ -8,7 +8,7 @@
  */
 size_t print_listint(const listint_t *h)
 {
-	listint_t *tmp;
+	const listint_t *tmp;
 	size_t (count) = 0;
 
 	if (h == NULL)
