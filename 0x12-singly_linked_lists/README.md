@@ -44,3 +44,8 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 
 ## 05 - This function prints `You're beat! and yet, you must allow,\nI bore my house upon my back!\n` before the main function is executed.
 - Used the printf function
+
+## 06 - This is a 64-bit program in assembly that prints `Hello, ALX`, followed by a new line.
+- Used the printf function
+- No use of interrupts
+- Compiled using `nasm` and `gcc:`
