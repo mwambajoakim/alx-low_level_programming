@@ -55,3 +55,9 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 ## 08 - This function returns the sum of all the data (n) of a listint_t linked list.
 - Prototype: `int sum_listint(listint_t *head);`
 - if the list is empty, return `0`
+
+## 09 - This function inserts a new node at a given position.
+- Prototype: `listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n);`
+- where `idx` is the index of the list where the new node should be added. Index starts at 0
+- Returns: the address of the new node, or `NULL` if it failed
+- if it is not possible to add the new node at index `idx`, do not add the new node and return `NULL`
