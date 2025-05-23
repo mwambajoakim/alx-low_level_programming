@@ -38,3 +38,7 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 
 ## 04 - This  function frees a listint_t list.
 - Prototype: `void free_listint(listint_t *head);`
+
+## 05 - This function frees a listint_t list.
+- Prototype: `void free_listint2(listint_t **head);`
+- The function sets the head to `NULL`
