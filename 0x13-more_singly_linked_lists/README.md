@@ -42,3 +42,7 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 ## 05 - This function frees a listint_t list.
 - Prototype: `void free_listint2(listint_t **head);`
 - The function sets the head to `NULL`
+
+## 06 - This function deletes the head node of a listint_t linked list, and returns the head node’s data (n).
+- Prototype: `int pop_listint(listint_t **head);`
+- if the linked list is empty return `0`
