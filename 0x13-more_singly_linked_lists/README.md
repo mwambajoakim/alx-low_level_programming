@@ -27,3 +27,7 @@ This can be called using ``` Node ``` since it has been `typedef`ed.
 
 ## 01 - This function returns the number of elements in a linked listint_t list.
 - Prototype: `size_t listint_len(const listint_t *h);`
+
+## 02 - This function adds a new node at the beginning of a listint_t list.
+- Prototype: `listint_t *add_nodeint(listint_t **head, const int n);`
+- Return: the address of the new element, or `NULL` if it failed
