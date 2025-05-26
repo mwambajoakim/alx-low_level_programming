@@ -60,3 +60,6 @@ An introduction to advanced data structures.
 
 ## 0x13-more_singly_linked_listshard_soft_links
 An in-depth look at how data is manipulated and how different actions can be carried out on a singly linked list.
+
+## 0x14-bit_manipulation
+A look at bits, binary numbers and how they are manipulated to achieve efficiency
