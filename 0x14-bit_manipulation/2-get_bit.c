@@ -9,5 +9,10 @@
  */
 int get_bit(unsigned long int n, unsigned int index)
 {
+	unsigned int mask, bit;
 
+	mask = 1 << index;
+	res = (n & mask) >> index;
+
+	return (res);
 }
