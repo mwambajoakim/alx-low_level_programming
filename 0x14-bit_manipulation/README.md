@@ -29,3 +29,9 @@ Considering two variables `x = 10` and `y = 12` The out put of `x ^ y` will be
 - Return: the converted number, or `0` if:
 	- there is one or more chars in the string `b` that is not `0` or `1`
 	- `b` is `NULL`
+
+## 01 - This function that prints the binary representation of a number.
+- Prototype: `void print_binary(unsigned long int n);`
+- No use of arrays
+- No use of `malloc`
+- No use of the `%` or `/` operators
