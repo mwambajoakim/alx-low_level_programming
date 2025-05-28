@@ -30,8 +30,13 @@ Considering two variables `x = 10` and `y = 12` The out put of `x ^ y` will be
 	- there is one or more chars in the string `b` that is not `0` or `1`
 	- `b` is `NULL`
 
-## 01 - This function that prints the binary representation of a number.
+## 01 - This function prints the binary representation of a number.
 - Prototype: `void print_binary(unsigned long int n);`
 - No use of arrays
 - No use of `malloc`
 - No use of the `%` or `/` operators
+
+## 02 - This function returns the value of a bit at a given index.
+- Prototype: `int get_bit(unsigned long int n, unsigned int index);`
+- where `index` is the index, starting from `0` of the bit you want to get
+- Returns: the value of the bit at index `index` or `-1` if an error occured
