@@ -13,16 +13,16 @@ void print_binary(unsigned long int n)
 	{
 		if (n & (mask << i))
 		{
-			_putchar('1');
+			_putchar(1 + '0');
 			start = 1;
 		}
 		else if (start)
 		{
-			_putchar('0');
+			_putchar(0 + '0');
 		}
 	}
 	if (!start)
 	{
-		_putchar('0');
+		_putchar(0 + '0');
 	}
 }
