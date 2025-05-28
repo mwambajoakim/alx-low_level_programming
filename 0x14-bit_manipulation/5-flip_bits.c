@@ -8,4 +8,14 @@
  * Return: Number of bits to flip
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
-{}
+{
+	unsigned long int res = n ^ m;
+	unsigned int i, bit_num = 0;
+
+	for (i = 0; i < sizeof(res) * CHAR_BIT - 1; i++)
+	{
+		if (res & (1UL << i))
+			bit_num++;
+	}
+	return (bit_num);
+}
