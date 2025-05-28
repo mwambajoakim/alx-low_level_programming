@@ -7,10 +7,11 @@
 void print_binary(unsigned long int n)
 {
 	int i, start = 0;
+	unsigned long int mask = 1;
 
 	for (i = sizeof(n) * CHAR_BIT - 1; i >= 0; --i)
 	{
-		if (n & (1UL << i))
+		if (n & (mask << i))
 		{
 			_putchar('1');
 			start = 1;
