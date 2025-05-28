@@ -12,16 +12,16 @@ void print_binary(unsigned long int n)
 	{
 		if (n & (1UL << i))
 		{
-			_putchar("1");
+			_putchar('1');
 			start = 1;
 		}
 		else if (start)
 		{
-			_putchar("0");
+			_putchar('0');
 		}
 		if(!start)
 		{
-			_putchar("0");
+			_putchar('0');
 		}
 	}
 }
