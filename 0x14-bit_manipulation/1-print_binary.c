@@ -19,9 +19,9 @@ void print_binary(unsigned long int n)
 		{
 			_putchar('0');
 		}
-		if(!start)
-		{
-			_putchar('0');
-		}
+	}
+	if (!start)
+	{
+		_putchar('0');
 	}
 }
