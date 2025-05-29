@@ -54,3 +54,7 @@ Considering two variables `x = 10` and `y = 12` The out put of `x ^ y` will be
 ## 05 - This function returns the number of bits you would need to flip to get from one number to another.
 - Prototype: `unsigned int flip_bits(unsigned long int n, unsigned long int m);`
 - No use of the `%` or `/` operators
+
+## 06 - This function checks the endianness.
+- Prototype: `int get_endianness(void);`
+- Returns: `0` if big endian, `1` if little endian
