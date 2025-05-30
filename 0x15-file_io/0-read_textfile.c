@@ -9,7 +9,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	FILE *opfile;
+	int opfile;
 	ssize_t b_read, b_written;
 	char *buff;
 
@@ -17,7 +17,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	opfile = fopen(filename, "r");
+	opfile = open(filename, "r");
 	if (opfile == NULL)
 	{
 		return (0);
@@ -26,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	buff = malloc(letters);
 	if (buff == NULL)
 	{
-		fclose(opfile);
+		close(opfile);
 		return (0);
 	}
 
@@ -34,13 +34,13 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (b_read <= 0)
 	{
 		free(buff);
-		fclose(opfile);
+		close(opfile);
 		return (0);
 	}
 
 	b_written = write(STDOUT_FILENO, buff, b_read);
 	free(buff);
-	fclose(opfile);
+	close(opfile);
 
 	if (b_written != b_read)
 		return (0);
