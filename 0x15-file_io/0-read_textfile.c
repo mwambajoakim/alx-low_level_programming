@@ -7,7 +7,7 @@
  *
  * Return: The number of letters written
  */
-ssize_t read_textfile(const char *filename, size_t letters);
+ssize_t read_textfile(const char *filename, size_t letters)
 {
 	FILE *opfile;
 	ssize b_read, b_written;
