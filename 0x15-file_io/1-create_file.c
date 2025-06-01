@@ -28,7 +28,10 @@ int create_file(const char *filename, char *text_content)
 		length = strlen(text_content);
 		written_b = write(opfile, text_content, length);
 		if (written_b != length)
+		{
+			close(opfile);
 			return (-1);
+		}
 	}
 	close(opfile);
 	return (1);
