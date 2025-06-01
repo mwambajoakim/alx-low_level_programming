@@ -16,16 +16,19 @@ int create_file(const char *filename, char *text_content)
 	{
 		return (-1);
 	}
-
-	opfile = open(filename, O_TRUNC | O_WRONLY);
-	if (opfile < 0 || text_content == NULL)
+	if (filename || text_content == NULL)
 	{
-		opfile = open(filename, O_CREAT | O_WRONLY, 0600);
+		opfile = open(filename, O_TRUNC | O_WRONLY);
+		if (opfile < 0)
+		{
+			opfile = open(filename, O_CREAT | O_WRONLY, 0600);
+			write(opfile, text_content, length);
+			close(opfile);
+			return (1);
+		}
 		write(opfile, text_content, length);
 		close(opfile);
 		return (1);
 	}
-	write(opfile, text_content, length);
-	close(opfile);
 	return (1);
 }
