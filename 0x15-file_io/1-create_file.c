@@ -19,6 +19,7 @@ int create_file(const char *filename, char *text_content)
 	if (text_content == NULL)
 	{
 		opfile = open(filename, O_CREAT, 0600);
+		close(opfile);
 		return (1);
 	}
 	opfile = open(filename, O_TRUNC | O_WRONLY, 0600);
