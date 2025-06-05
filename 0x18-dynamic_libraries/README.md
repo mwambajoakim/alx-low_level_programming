@@ -39,3 +39,5 @@ unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 ```
+
+## 01 - Created a script that creates a dynamic library called liball.so from all the .c files that are in the current directory.
