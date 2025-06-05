@@ -1,13 +1,13 @@
 #include "ops.h"
 
 /**
- * div - Divides two integers.
+ * divide - Divides two integers.
  * @a: The numerator.
  * @b: The denominator.
  *
  * Return: The quotient of a and b.
  */
-int div(int a, int b)
+int divide(int a, int b)
 {
 	if (b == 0)
 	{
