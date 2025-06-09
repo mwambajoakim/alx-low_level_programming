@@ -5,4 +5,17 @@
  * @head: Pointer to head node
  */
 void free_dlistint(dlistint_t *head)
-{}
+{
+	dlistint_t *temp;
+
+	if (head == NULL)
+	{
+		return (NULL);
+	}
+	while (head != NULL)
+	{
+		temp = head;
+		free(temp);
+		head = head->next;
+	}
+}
