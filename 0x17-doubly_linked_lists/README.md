@@ -19,3 +19,6 @@ The head node's pointer to previous points to NULL just like the tail's pointer 
 ## 03 - This function adds a new node at the end of a dlistint_t list.
 - Prototype: `dlistint_t *add_dnodeint_end(dlistint_t **head, const int n);`
 - Return: the address of the new element, or `NULL` if it failed
+
+## 04 - This function frees a dlistint_t list.
+- Prototype: `void free_dlistint(dlistint_t *head);`
