@@ -12,7 +12,7 @@ int main(void)
 	int i;
 	unsigned long f_prev, l_prev, f_current, l_current, f_next, l_next;
 
-	printf("%ld, %ld", prev, current);
+	printf("%lu, %lu", prev, current);
 
 	for (i = 3; i <= 98; i++)
 	{
@@ -33,7 +33,7 @@ int main(void)
 					l_next -= 10000000000;
 					f_next++;
 				}
-				printf(", %ld010%ld", f_next, l_next);
+				printf(", %lu%010lu", f_next, l_next);
 
 				f_prev = f_current;
 				l_prev = f_current;
@@ -42,7 +42,7 @@ int main(void)
 			}
 			break;
 		}
-		printf(", %ld", next);
+		printf(", %lu", current);
 		prev = current;
 		current = next;
 	}
