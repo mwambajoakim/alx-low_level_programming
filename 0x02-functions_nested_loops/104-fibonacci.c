@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdint.h>
 
 /**
  * main - Calculates fibonacci for the first 98 numbers.
@@ -7,26 +8,43 @@
  */
 int main(void)
 {
-	long int prev = 1;
-	long int current = 2;
-	long int next;
-	unsigned int i;
+	unsigned long prev = 1L, current = 2L, next;
+	int i;
+	unsigned long f_prev, l_prev, f_current, l_current, f_next, l_next;
 
-	printf("%ld, %ld, ", prev, current);
+	printf("%ld, %ld", prev, current);
 
-	for (i = 0; i < 98; i++)
+	for (i = 3; i <= 98; i++)
 	{
 		next = prev + current;
+		if (next < current)
+		{
+			f_prev = prev / 10000000000;
+			l_prev = prev % 10000000000;
+			f_current = current / 10000000000;
+			l_current = current % 10000000000;
+			for (; i < 98; i++)
+			{
+				f_next = f_prev + f_current;
+				l_next = l_prev + l_current;
+
+				if (l_next >= 10000000000)
+				{
+					l_next -= 10000000000;
+					f_next++;
+				}
+				printf(", %ld010%ld", f_next, l_next);
+
+				f_prev = f_current;
+				l_prev = f_current;
+				f_current = f_next;
+				l_current = l_next;
+			}
+			break;
+		}
+		printf(", %ld", next);
 		prev = current;
 		current = next;
-		if (i < 97)
-		{
-			printf("%ld, ", current);
-		}
-		else
-		{
-			printf("%ld", current);
-		}
 	}
 	printf("\n");
 	return (0);
