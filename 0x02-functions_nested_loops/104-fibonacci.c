@@ -42,7 +42,7 @@ int main(void)
 			}
 			break;
 		}
-		printf(", %lu", current);
+		printf(", %lu", next);
 		prev = current;
 		current = next;
 	}
