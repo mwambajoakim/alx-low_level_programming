@@ -44,3 +44,7 @@ This is a continuation of the previous project on pointers. More depth and under
 - Prototype: `char *leet(char *);`
 - Used one `if` in the code.
 - Used two loops in the code.
+
+## 08 - This program prints a[2] = 98, followed by a new line.
+-  Accessed `a[2]` through pointer arithmetic
+- Only wrote one statement
