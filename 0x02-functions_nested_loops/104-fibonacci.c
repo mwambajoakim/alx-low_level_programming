@@ -36,7 +36,7 @@ int main(void)
 				printf(", %lu%010lu", f_next, l_next);
 
 				f_prev = f_current;
-				l_prev = f_current;
+				l_prev = l_current;
 				f_current = f_next;
 				l_current = l_next;
 			}
