@@ -23,7 +23,7 @@ int main(void)
 			l_prev = prev % 10000000000;
 			f_current = current / 10000000000;
 			l_current = current % 10000000000;
-			for (; i < 98; i++)
+			for (; i <=98; i++)
 			{
 				f_next = f_prev + f_current;
 				l_next = l_prev + l_current;
