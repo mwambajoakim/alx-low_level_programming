@@ -64,3 +64,7 @@ This is just a continuation of the last project on loops and functions. Here it 
 - If `size` is `0` or less, the function should print only a new line.
 - Used the character `#` to print the triangle.
 
+## 11 - This function prints an integer.
+- Prototype: `void print_number(int n);`
+- Only used `_putchar` function to print
+- Handled `INT_MIN` since I was trying to print an `int` only
