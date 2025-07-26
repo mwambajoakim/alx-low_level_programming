@@ -62,3 +62,9 @@
 - The last printed number is always `98`.
 - The standard library is used i.e for accessing `printf`.
 
+## 12 - This program finds and prints the first 98 Fibonacci numbers, starting with 1 and 2, followed by a new line.
+- The numbers are separated by comma, followed by a space ,
+- No use of any other library (e.g `GMP`, etc…)
+- No use of `long long`, `malloc`, pointers, arrays/tables, or structures
+- Only hard coded `1` and `2`
+
